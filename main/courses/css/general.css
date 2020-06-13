@@ -2,42 +2,6 @@ body {
     background-color: rgb(26, 25, 25);
     color: white;
     margin: 0px;
-}
-
-header {
-    background-color: #002642;
-    color: white;
-    padding: 30px 0px;
-    
-}
-
-.aa {
-    display: flex;
-    margin: 10px 10px 10px 800px;
-}
-
-.cc {
-    margin: 10px 10px;
-}
-
-main {
-    color: white;
-    margin: 2px px;
-    /*border: brown 2px solid;*/
-}
-
-
-.titulo{
-    font-size: 40px;
-    /*border: rgb(181, 207, 66) 2px solid;*/
-    padding: 10px ;
-}
-
-.p {
-    display: flex;body {
-    background-color: rgb(26, 25, 25);
-    color: white;
-    margin: 0px;
     font-family: "Trebuchet MS";
     font-size: 20px;
 }
@@ -165,46 +129,4 @@ i{
 
 .icon{
     font-size: 25px;
-}
-    /*border: rgb(71, 165, 42) 2px solid;*/
-    margin: 10px;
-    background-color: #e5dada;
-    color: black;
-}
-
-.pp {
-    /*border: rgb(165, 42, 42) 2px solid;*/
-}
-
-.img {
-    width: 13%;
-    /*border: rgb(8, 6, 6) 2px solid; */
-    margin: 10px;  
-}
-
-
-footer{
-    background-color: #e69500;
-    padding: 0px 0;
-    
-}
-.a {
-    background-color: #e69500;
-    color: white;
-    padding: 0px 0;
-    
-}
-
-.b {
-    display: flex;
-    
-}
-
-.c {
-    margin: 10px 10px;
-}
-
-.d {
-    margin: 150px 10px 10px 700px;
-    text-align: right;
 }
