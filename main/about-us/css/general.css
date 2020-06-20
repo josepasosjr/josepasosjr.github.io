@@ -1,5 +1,8 @@
-body{
-    margin: 0;
+body {
+    background: rgb(15, 16, 20) url('../img/background.jpg') no-repeat fixed;
+    background-size: cover;
+    color: black;
+    margin: 0px;
     font-family: "Trebuchet MS";
     font-size: 20px;
 }
@@ -48,11 +51,20 @@ header{
 
 /* Cuerpo */
 
+/* Separations */
+
+#programs, #idiomas{
+    margin-top: 150px;
+}
+
+#idiomas{
+    margin-bottom: 75px;
+}
+
 /* Primera parte - Foto e info */
 
 #body{
-    background-color: #DDDDDD;
-    padding: 0 0 50px 0;
+    padding: 0;
 }
 
 #about{
@@ -89,11 +101,11 @@ header{
 
 #programs{
     background-color:#eef1ef;
-    margin-top: 50px;
     padding: 20px 20px 20px 0;
     margin-right: 100%;
     overflow: hidden;
     transition: margin-right 1s ease-out;
+    opacity: 0;
 }
 
 #ip, #ip1, #ip2, #ip3, #ip4, #ip5{
@@ -120,11 +132,11 @@ li{
 
 #idiomas{
     background-color:#eef1ef;
-    margin-top: 50px;
     padding: 20px 20px 20px 0;
     margin-right: 100%;
     overflow: hidden;
     transition: margin-right 1s ease-out;
+    opacity: 0;
 }
 
 #ip4{
