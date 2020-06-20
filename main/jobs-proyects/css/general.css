@@ -54,7 +54,7 @@ Main
 
 /* Spacing */
 
-#works > .p ~ .p, #proyects > .p ~ .p{
+#jobs > .p ~ .p, #proyects > .p ~ .p{
     margin-top: 150px;
 }
 
@@ -94,7 +94,7 @@ img{
 Works
 */
 
-.work-grade{
+.job-grade, .proy-grade{
     font-size: 30px;
     font-weight: bold;
 }
@@ -104,7 +104,7 @@ Works
     font-size: 18px;
 }
 
-.info-work{
+.info-job, .info-proy{
     width: 45%;
     padding: 25px 50px;
     align-self: center;
