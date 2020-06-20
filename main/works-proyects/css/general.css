@@ -6,7 +6,9 @@ body {
     font-size: 20px;
 }
 
-/* Links */
+/*
+Links
+*/
 
 a{
     text-decoration: none;
@@ -20,7 +22,9 @@ a:hover{
     color: #eef1ef;
 }
 
-/* Estilos del header */
+/*
+Estilos del header
+*/
 
 header{
     background-color: #242831;
@@ -43,7 +47,19 @@ header{
     font-weight: bold;
 }
 
-/* Main */
+/* 
+Main
+*/
+
+img{
+    width: 55%;
+}
+
+.p {
+    display: flex;
+    margin: 0 auto 50px;
+    background-color: #eef1ef;
+}
 
 .titulo{
     text-align: center;
@@ -54,49 +70,48 @@ header{
     margin-bottom: 50px;
 }
 
-.info-cert{
-    /* border: red solid 2px; */
+.description, .reference{
+    font-size: 22px;
+}
+
+.reference>a{
+    color: black;
+    font-weight: bold;
+}
+
+.reference>a:hover{
+    color: #242831;
+}
+
+/* 
+Works
+*/
+
+.work-grade{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.duration{
+    color: #242831;
+    font-size: 18px;
+}
+
+.info-work{
     width: 45%;
     padding: 25px 50px;
     align-self: center;
 }
 
-.pp{
-    font-size: 22px;
-    line-height: 1.5;
-}
+/* 
+Proyects
+*/
 
-.pp>a{
-    color: black;
-    font-weight: bold;
-}
 
-.pp>a:hover{
-    color: #242831;
-}
 
-.aa {
-    display: flex;
-    margin: 10px 10px 10px 800px;
-}
-
-.cc {
-    margin: 10px 10px;
-}
-
-.p {
-    display: flex;
-    /*border: rgb(71, 165, 42) 2px solid;*/
-    margin: 0 auto 50px;
-    background-color: #eef1ef;
-}
-
-img{
-    width: 55%;
-    /*border: rgb(8, 6, 6) 2px solid; */
-}
-
-/* Footer */
+/*
+Footer
+*/
 
 footer{
     background-color: #242831;
@@ -121,7 +136,9 @@ footer{
     margin: 0 50px 0 auto;
 }
 
-/* Import icons */
+/*
+Import icons
+*/
 
 i{
     width: 35px;
