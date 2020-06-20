@@ -1,6 +1,6 @@
 body {
-    /* background-color: #0F1014; */
-    background-image: url('img/background.jpg');
+    background: rgba(15, 16, 20, 0.5) url('../img/background.jpg') no-repeat fixed;
+    background-size: cover;
     color: black;
     margin: 0px;
     font-family: "Trebuchet MS";
@@ -62,16 +62,12 @@ img{
     background-color: #eef1ef;
 }
 
-#first-block{
-    height: 50px;
-}
-
 .titulo{
     text-align: center;
     color: white; 
     font-weight: bold;
     font-size: 60px;
-    padding: 50px 0 50px 150px;
+    padding: 50px 0;
 }
 
 .reference>a{
