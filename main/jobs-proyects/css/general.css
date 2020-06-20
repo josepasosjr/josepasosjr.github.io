@@ -54,8 +54,12 @@ Main
 
 /* Spacing */
 
-.p{
-    margin-bottom: 150px;
+#works > .p ~ .p, #proyects > .p ~ .p{
+    margin-top: 150px;
+}
+
+footer{
+    margin-top: 75px;
 }
 
 /*  */
@@ -74,7 +78,7 @@ img{
     color: white; 
     font-weight: bold;
     font-size: 60px;
-    padding: 50px 0;
+    padding: 75px 0;
 }
 
 .reference>a{
