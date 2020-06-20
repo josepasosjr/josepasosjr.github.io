@@ -1,5 +1,5 @@
 body {
-    background: rgba(15, 16, 20, 0.5) url('../img/background.jpg') no-repeat fixed;
+    background: rgb(15, 16, 20) url('../img/background.jpg') no-repeat fixed;
     background-size: cover;
     color: black;
     margin: 0px;
@@ -58,7 +58,7 @@ img{
 
 .p {
     display: flex;
-    margin: 0 auto 50px;
+    margin: 0 auto 200px;
     background-color: #eef1ef;
 }
 
