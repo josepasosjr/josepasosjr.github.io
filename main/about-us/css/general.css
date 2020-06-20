@@ -1,1 +1,214 @@
-/* Test */
+body {
+    background: rgb(15, 16, 20) url('../img/background.jpg') no-repeat fixed;
+    background-size: cover;
+    color: black;
+    margin: 0px;
+    font-family: "Trebuchet MS";
+    font-size: 20px;
+}
+
+/* Links */
+
+a{
+    text-decoration: none;
+}
+
+a:visited, a:link{
+    color: white;
+}
+
+a:hover{
+    color: #eef1ef;
+}
+
+/* Generacion de columnas */
+
+#personal-info, #navigator,#idiomas,#programs,footer{
+    display: flex;
+}
+
+/* Estilos del header */
+
+header{
+    background-color: #242831;
+    color: #eef1ef;
+    padding: 30px 1%;
+}
+
+#navigator{
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center; 
+}
+
+.menus{
+    text-align: center;
+    width: 150px;
+    font-size: 17px;
+    margin: 0 25px;
+    font-weight: bold;
+}
+
+/* Cuerpo */
+
+/* Separations */
+
+#programs, #idiomas{
+    margin-top: 150px;
+}
+
+#idiomas{
+    margin-bottom: 75px;
+}
+
+/* Primera parte - Foto e info */
+
+#body{
+    padding: 0;
+}
+
+#about{
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+
+#personal-info{
+    background-color:#eef1ef;
+}
+
+#foto-perfil{
+    width: 55%;
+}
+
+#info-foto{
+    padding: 25px 50px;
+    align-self: center;
+    width: 45%;
+}
+
+#info-tit{
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+.info-p{
+    line-height: 1.2;
+}
+
+/* Segunda parte - Programas */
+
+#programs{
+    background-color:#eef1ef;
+    padding: 20px 20px 20px 0;
+    margin-right: 100%;
+    overflow: hidden;
+    transition: margin-right 1s ease-out;
+    opacity: 0;
+}
+
+#ip, #ip1, #ip2, #ip3, #ip4, #ip5{
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.info-programs{
+    width: 45%;
+    margin-left: 50px;
+    align-self: center
+}
+
+.prog-leng{
+    width: 20%;
+    margin-left: 5%;
+}
+
+li{
+    margin: 10px 0;
+}
+
+/* Tercera parte - Lenguages */
+
+#idiomas{
+    background-color:#eef1ef;
+    padding: 20px 20px 20px 0;
+    margin-right: 100%;
+    overflow: hidden;
+    transition: margin-right 1s ease-out;
+    opacity: 0;
+}
+
+#ip4{
+    width: 220px;
+    margin-left: 5%;
+}
+
+#ip5{
+    margin-left: 5%;
+    margin-right: 50px;
+}
+
+.back-box{
+    background-color: #DDDDDD;
+    width: 200px;
+    padding-right: 5%;
+}
+
+.spa-bar, .deu-bar, .por-bar, .eng-bar{
+    background-color: #242831;
+    color:#eef1ef;
+    text-align: right;
+    padding-right: 5%;
+}
+
+.spa-bar{
+    width: 100%;    
+}
+.deu-bar{
+    width: 20%;    
+}
+.por-bar{
+    width: 20%;    
+}
+.eng-bar{
+    width: 80%;    
+}
+
+.progress{
+    list-style: none;
+}
+
+/* Footer */
+
+footer{
+    background-color: #242831;
+    color: #eef1ef;
+    padding: 30px 0;
+}
+
+#cont-inf{
+    width: 400px;
+    margin-left: 50px;
+}
+
+.redes{
+    font-size: 15px;
+}
+
+#mark{
+    align-self: flex-end;
+    font-size: 15px;
+    width: 500px;
+    margin: 0 50px 0 auto;
+}
+
+/* Import icons */
+
+i{
+    width: 35px;
+}
+
+.icon{
+    font-size: 25px;
+}
