@@ -52,13 +52,20 @@ header{
 Main
 */
 
+/* Spacing */
+
+.p{
+    margin-bottom: 150px;
+}
+
+/*  */
+
 img{
     width: 55%;
 }
 
 .p {
     display: flex;
-    margin: 0 auto 200px;
     background-color: #eef1ef;
 }
 
