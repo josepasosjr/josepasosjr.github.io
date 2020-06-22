@@ -154,3 +154,18 @@ i{
 .icon{
     font-size: 25px;
 }
+
+/* Animations */
+
+.complement{
+    height: 500px;
+    overflow: hidden;
+    background-color: none;
+    transition: height 1s ease-out;
+}
+
+.p{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-Height 1s ease-out;
+}
