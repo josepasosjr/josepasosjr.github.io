@@ -130,3 +130,31 @@ i{
 .icon{
     font-size: 25px;
 }
+
+/* Animation */
+
+.arrow{
+    margin-left: auto;
+}
+
+.category-info{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s ease-out;
+}
+
+.menus-container{
+    background-color: #eef1ef;
+    border: none;
+    color: #242831;
+    padding: 30px 50px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 50px;    
+    display: flex;
+}
+
+.arrow>i{
+    width: 50px;
+}
