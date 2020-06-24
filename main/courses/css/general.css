@@ -1,5 +1,6 @@
 body {
-    background-color: #DDDDDD;
+    background: #0F1014 url('../img/background.jpg') no-repeat fixed;
+    background-size: cover;
     color: black;
     margin: 0px;
     font-family: "Trebuchet MS";
@@ -47,11 +48,10 @@ header{
 
 .titulo{
     text-align: center;
-    background-color:#eef1ef;
+    color: #0F1014;
     font-weight: bold;
     font-size: 60px;
-    padding: 50px 0;
-    margin-bottom: 50px;
+    padding: 75px 0;
 }
 
 .info-cert{
@@ -59,6 +59,26 @@ header{
     width: 45%;
     padding: 25px 50px;
     align-self: center;
+}
+
+.cursos{
+    display: flex;
+    justify-content: left;
+    padding: 30px 50px 10px;
+}
+
+.info-curs ~ .info-curs{
+    margin-left: 100px;
+}
+
+.title-courses{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+li{
+    font-size: 22px;
+    line-height: 1.5;
 }
 
 .pp{
@@ -135,26 +155,45 @@ i{
 
 .arrow{
     margin-left: auto;
+    margin-right: 50px;
 }
 
 .category-info{
     max-height: 0;
     overflow: hidden;
-    transition: max-height 1s ease-out;
+    transition: max-height 0.5s ease-out;
+}
+
+.certificado, .cursos{
+    display: flex;
+    background-color:#eef1ef;
 }
 
 .menus-container{
-    background-color: #eef1ef;
+    background-color: #0F1014;
     border: none;
-    color: #242831;
+    color: #eef1ef;
     padding: 30px 50px;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bold;
-    cursor: pointer;
-    margin-top: 50px;    
+    cursor: pointer;   
     display: flex;
+    position: relative;
+    top: 0;
 }
 
-.arrow>i{
-    width: 50px;
+.menus-container ~ .menus-container{
+    margin-top: 75px;
+}
+
+.category-info-title{
+    background-color: rgba(15,15,15,0.2);
+    padding: 50px 0;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.arrow>span>i{  
+    font-size: 50px;
 }
