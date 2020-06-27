@@ -91,7 +91,12 @@ li{
     font-weight: bold;
 }
 
-.pp>a:hover{
+li>a:link, li>a:visited{
+    color: black;
+    font-weight: bold;
+}
+
+.pp>a:hover, li>a:hover{
     color: #242831;
 }
 
@@ -119,6 +124,7 @@ img{
 /* Footer */
 
 footer{
+    margin-top: 75px;
     background-color: #242831;
     color: #eef1ef;
     padding: 30px 0;
@@ -196,4 +202,6 @@ i{
 
 .arrow>span>i{  
     font-size: 50px;
+    transform: rotate(-90deg);
+    transition: transform 0.1s linear;
 }
