@@ -1,0 +1,58 @@
+@media screen and (min-width: 721px) {
+    .maxhf{
+        display: inherit !important;
+    }
+
+    /* Header */
+
+    header{
+        padding: 30px 1%;
+    }
+
+    #navigator{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center; 
+    }
+
+    .menus{
+        text-align: center;
+        width: 150px;
+        font-size: 17px;
+        margin: 0 25px;
+    }
+
+    /* Footer */
+
+    footer{
+        padding: 30px 0;
+        display: flex;
+    }
+
+    #cont-inf{
+        width: 400px;
+        margin-left: 50px;
+    }
+
+    .redes{
+        font-size: 15px;
+    }
+
+    #mark{
+        align-self: flex-end;
+        font-size: 15px;
+        width: 500px;
+        margin: 0 50px 0 auto;
+    }
+
+    /* Import icons */
+
+    i{
+        width: 35px;
+    }
+
+    .icon{
+        font-size: 25px;
+    }
+}
+
