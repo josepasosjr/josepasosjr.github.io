@@ -8,25 +8,40 @@
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" type="image/x-icon" href="../web_logo.ico" />
+    <script src="curriculum.js"></script>
+
+    <!-- Cambios en la compatibilidad visual de la página -->
+
+    <link href='css/dp-max.css' rel='stylesheet'>
+    <link href='css/dp-medium.css' rel='stylesheet'>
+    <link href='css/dp-min.css' rel='stylesheet'>
 
 </head>
 
 <body>
+
 <header>
-    <div id='navigator'>
-        <div class="menus"><a href='../curriculum/curriculum.html'>Curriculum</a></div>
-        <div class="menus"><a href='../about-us/about-us.html'>About Me</a></div>
-        <div class="menus"><a href='../courses/courses.html'>Courses and Certifications</a></div>
-        <div class="menus"><a href='../jobs-proyects/jobs-proyects.html'>Jobs and Proyects</a></div>
-        <div class="menus"><a href='../contact-info/contact-info.html'>Contact Information</a></div>
+    <div id='navigator' onclick="selectMenu('hiden-menu')">
+        <div class="arrow med min"><span class="icon"><i class="fa fa-angle-down"></i></span></div>
+        <div class="menus max"><a href='../curriculum/curriculum.html'>Curriculum</a></div>
+        <div class="menus max"><a href='../about-us/about-us.html'>About Me</a></div>
+        <div class="menus max"><a href='../courses/courses.html'>Courses and Certifications</a></div>
+        <div class="menus max"><a href='../jobs-proyects/jobs-proyects.html'>Jobs and Proyects</a></div>
+        <div class="menus max"><a href='../contact-info/contact-info.html'>Contact Information</a></div>
+    </div>
+    <div class='med min' id='hiden-menu'>
+        <div class="menus">
+            <div><a href='../curriculum/curriculum.html'>Curriculum</a></div>
+            <div><a href='../about-us/about-us.html'>About Me</a></div>
+            <div><a href='../courses/courses.html'>Courses and Certifications</a></div>
+            <div><a href='../jobs-proyects/jobs-proyects.html'>Jobs and Proyects</a></div>
+            <div><a href='../contact-info/contact-info.html'>Contact Information</a></div>
+        </div>
     </div>
 </header>
 
 <main>
 
-    <!-- <div class="titulo">
-    Curriculum
-    </div> -->
     <embed src="CV-José-Pasos.pdf" width="100%" height="600px" />
 
 </main>

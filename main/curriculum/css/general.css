@@ -1,5 +1,8 @@
+.max, .med, .min{
+    display: none;
+}
+
 body {
-   /* background-color: #DDDDDD; */
     background-color: rgb(34, 34, 34);
     margin: 0px;
     font-family: "Trebuchet MS";
@@ -25,35 +28,15 @@ a:hover{
 header{
     background-color: #242831;
     color: #eef1ef;
-    padding: 30px 1%;
 }
 
 #navigator{
-    display: flex;
     width: 100%;
-    justify-content: flex-end;
-    align-items: center; 
 }
 
 .menus{
-    text-align: center;
-    width: 150px;
-    font-size: 17px;
-    margin: 0 25px;
     font-weight: bold;
 }
-
-/* Main */
-
-.titulo{
-    font-weight: bold;
-    color:white;
-    font-size: 30px;
-    padding: 0;
-    align-self: center;
-    margin: 30px 600px;
-}
-
 
 /* Footer */
 

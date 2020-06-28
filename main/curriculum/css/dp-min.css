@@ -1,0 +1,22 @@
+@media screen and (max-width: 300px) {
+    .min{
+        display: inherit !important;
+    }
+
+    /* Estilo del Header */
+
+    header{
+        height: 15px;
+    }
+
+    #navigator{
+        justify-content: flex-end;
+        align-items: center; 
+    }
+
+    .menus{
+        font-size: 17px;
+        margin: 0 25px;
+    }
+
+}
