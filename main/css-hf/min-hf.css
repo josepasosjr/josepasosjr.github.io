@@ -1,6 +1,6 @@
 @media screen and (max-width: 349px) {
     .minhf{
-        display: inherit !important;
+        display: block;
     }
 
     /* Estilo del Header */
