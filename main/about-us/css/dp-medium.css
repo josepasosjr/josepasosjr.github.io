@@ -33,7 +33,7 @@
 }
 
 #info-foto{
-    padding: 10px 25px;
+    padding: 20px 25px;
     align-self: center;
     width: 45%;
     font-size: 15px;
@@ -48,15 +48,21 @@
     line-height: 1;
 }
 
+
+
+}
+
 @media screen and (max-width: 720px){
+    /* #personal-info > img {
+        display: none;
+    } */
+
     #personal-info{
         display: block;
     }
+
     #foto-perfil, #info-foto{
-        width: 100%;
+        width: 90%;
     }
 
 }
-
-}
-
