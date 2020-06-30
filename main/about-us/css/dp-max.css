@@ -1,0 +1,50 @@
+@media screen and (min-width: 1050px){
+.max{
+    display: block;
+}
+
+/* Generacion de columnas */
+
+#personal-info,#idiomas,#programs{
+    display: flex;
+}
+
+/* Cuerpo */
+
+/* Separations */
+
+#programs, #idiomas{
+    margin-top: 150px;
+}
+
+#idiomas{
+    margin-bottom: 75px;
+}
+
+/* Primera parte - Foto e info */
+
+#about{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+#foto-perfil{
+    width: 55%;
+}
+
+#info-foto{
+    padding: 25px 50px;
+    align-self: center;
+    width: 45%;
+}
+
+#info-tit{
+    font-size: 32px;
+    margin: 0 0 10px 0;
+}
+
+.info-p{
+    line-height: 1.2;
+}
+
+}

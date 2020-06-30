@@ -1,0 +1,62 @@
+@media screen and (min-width: 350px) and (max-width: 1049px) {
+    .med{
+        display: block;
+    }
+
+/* Generacion de columnas */
+
+#personal-info{
+    display: flex;
+}
+
+/* Cuerpo */
+
+/* Separations */
+
+#programs, #idiomas{
+    margin-top: 150px;
+}
+
+#idiomas{
+    margin-bottom: 75px;
+}
+
+/* Primera parte - Foto e info */
+
+#about{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+#foto-perfil{
+    width: 55%;
+}
+
+#info-foto{
+    padding: 10px 25px;
+    align-self: center;
+    width: 45%;
+    font-size: 15px;
+}
+
+#info-tit{
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+
+.info-p{
+    line-height: 1;
+}
+
+@media screen and (max-width: 720px){
+    #personal-info{
+        display: block;
+    }
+    #foto-perfil, #info-foto{
+        width: 100%;
+    }
+
+}
+
+}
+

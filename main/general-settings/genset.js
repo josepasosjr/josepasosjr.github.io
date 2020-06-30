@@ -1,7 +1,7 @@
 function insertHTML(){
     // Insert the header
     let header = document.getElementsByTagName('header');
-    let x = "<div id='navigator' onclick=\"selectMenu('hiden-menu')\">";
+    let x = "<div id='navigator' onclick=\"selectHeader('hiden-menu')\">";
     x += "<div class='arrow medhf minhf'><span class='icon'><i class='fa fa-angle-down'></i></span></div>";
     x += "<div class='menus maxhf'><a href='../curriculum/curriculum.html'>Curriculum</a></div>";
     x += "<div class='menus maxhf'><a href='../about-us/about-us.html'>About Me</a></div>";
@@ -32,4 +32,13 @@ function insertHTML(){
     y += "(<!-- Insertar su web page-->), Mechanical Engineering Students at 'Universidad Simón Bolívar'";
     y += "</div>";
     footer[0].innerHTML = y;
+}
+
+function selectHeader(n){
+    let j = document.getElementById('' + n);
+    if (j.style.maxHeight){
+        j.style.maxHeight = null;
+    } else {
+        j.style.maxHeight = j.scrollHeight + "px";
+    }
 }

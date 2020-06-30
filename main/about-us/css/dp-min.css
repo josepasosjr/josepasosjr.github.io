@@ -1,0 +1,49 @@
+@media screen and (max-width: 350px){
+    .min{
+        display: block;
+    }
+
+/* Cuerpo */
+
+/* Separations */
+
+#personal-info{
+    display: block;
+}
+
+#programs, #idiomas{
+    margin-top: 150px;
+}
+
+#idiomas{
+    margin-bottom: 75px;
+}
+
+/* Primera parte - Foto e info */
+
+#about{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+#foto-perfil{
+    width: 100%;
+}
+
+#info-foto{
+    padding: 10px 25px;
+    align-self: center;
+    width: 100%;
+    font-size: 12px;
+}
+
+#info-tit{
+    font-size: 18px;
+    margin: 0 0 10px 0;
+}
+
+.info-p{
+    line-height: 1;
+}
+
+}

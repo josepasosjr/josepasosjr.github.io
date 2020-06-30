@@ -4,26 +4,26 @@
 <head>
     <title>About me</title>
     <meta charset="utf-8">
-    <link href='css/general.css' rel="stylesheet">
+    <link href='css/about-us.css' rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name='viewport' content="width=device-width, initial-scale=1.0">
-    <script src="about-us.js"></script>
     <link rel="shortcut icon" type="image/x-icon" href="../web_logo.ico" />
+    <script src="about-us.js"></script>
+
+    <!-- Header y Footer y general details-->
+    <script src="../general-settings/genset.js"></script>
+    <link rel="stylesheet" href="../general-settings/css/union.css">
+
 </head>
 
-<body onscroll='rightAn(0), setTimeout(rightAn.bind(1),1000)'>
+<body onload='insertHTML()' onscroll='rightAn(0), setTimeout(rightAn.bind(1),1000)'>
 
 <header>
-    <div id='navigator'>
-        <div class="menus"><a href='../curriculum/curriculum.html'>Curriculum</a></div>
-        <div class="menus"><a href='../about-us/about-us.html'>About Me</a></div>
-        <div class="menus"><a href='../courses/courses.html'>Courses and Certifications</a></div>
-        <div class="menus"><a href='../jobs-proyects/jobs-proyects.html'>Jobs and Proyects</a></div>
-        <div class="menus"><a href='../contact-info/contact-info.html'>Contact Information</a></div>
-    </div>
+
 </header>
 
-<div id="body">
+<main>
+
     <div id='personal-info'>
             <img id='foto-perfil' src="img/IMG_3701.JPG" alt='Yo en un fondo con plantas'>
         <div id='info-foto'>
@@ -34,13 +34,16 @@
             <div class="info-p">Currently living in Venezuela.</div><br>
         </div>
     </div>
+
     <div id='programs'>
+
         <div class="info-programs" id='ip'>
             <h3>Programs and Programming Languages</h3>
             <p>This are some of the programs and programming languages that I have used throughout my career and my 
                 free time, in some hobbie proyects and collage works.
             </p>
         </div>
+
         <div class="prog-leng" id='ip1'>
             <h3>Programs</h3>
             <ul>
@@ -54,6 +57,7 @@
                 <li>SolidWorks</li>
             </ul>
         </div>
+
         <div class="prog-leng" id='ip2'>
             <h3>Programming Languages</h3>
             <ul>
@@ -71,11 +75,14 @@
             </ul>
         </div>
     </div>
+
     <div id='idiomas'>
+
         <div class="info-programs" id='ip3'>
             <h3>Languages</h3>
             <p>Here are some of the languages that I have learned to this day</p>
         </div>
+
         <div id='ip4'>
             <ul>
                 <li>Spanish</li>
@@ -84,6 +91,7 @@
                 <li>Portuguese</li>
             </ul>
         </div>
+
         <div id='ip5'>
             <ul class="progress">
                 <li class="back-box"><div class="spa-bar">100%</div></li>
@@ -93,19 +101,11 @@
             </ul>
         </div>
     </div>
-</div>
+
+</main>
 
 <footer>
-    <div id='cont-inf'>
-        <h3>Contact Information</h3>
-        <p class="redes"><span class="icon"><i class="fa fa-github-alt"></i></span><a href="https://github.com/jesusepp">GitHub</a></p>
-        <p class="redes"><span class="icon"><i class="fa fa-linkedin"></i></span><a href="https://www.linkedin.com/in/jeppires">LinkedIn</a></p>
-        <p class="redes"><span class="icon"><i class="fa fa-at"></i></span>jpereira.fsaeusb@gmail.com</p>
-    </div>
-    <div id="mark">
-        This web aplication was developed by José Pasos (<!-- Insertar su web page-->) and Jesús Pereira 
-        (<!-- Insertar su web page-->), Mechanical Engineering Students at "Universidad Simón Bolívar"
-    </div>
+
 </footer>
 </body>
 </html>
