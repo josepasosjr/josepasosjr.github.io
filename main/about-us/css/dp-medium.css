@@ -34,9 +34,9 @@
 
 #info-foto{
     padding: 20px 25px;
-    align-self: center;
     width: 45%;
     font-size: 15px;
+    align-self: center;
 }
 
 #info-tit{
@@ -61,8 +61,13 @@
         display: block;
     }
 
-    #foto-perfil, #info-foto{
-        width: 90%;
+    #foto-perfil{
+        width: 100%;
+    } 
+
+
+    #info-foto{
+        width: auto;
     }
 
 }

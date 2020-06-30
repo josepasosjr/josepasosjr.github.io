@@ -22,8 +22,8 @@
 /* Primera parte - Foto e info */
 
 #about{
-    font-size: 25px;
-    margin-bottom: 15px;
+    font-size: 20px;
+    margin-bottom: 5px;
 }
 
 #foto-perfil{
@@ -32,14 +32,13 @@
 
 #info-foto{
     padding: 10px 25px;
-    align-self: center;
-    width: 100%;
-    font-size: 12px;
+    width: auto;
+    font-size: 10px;
 }
 
 #info-tit{
-    font-size: 18px;
-    margin: 0 0 10px 0;
+    font-size: 13px;
+    margin-bottom: 5px;
 }
 
 .info-p{
