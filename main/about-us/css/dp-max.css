@@ -3,12 +3,6 @@
     display: block;
 }
 
-/* Generacion de columnas */
-
-#personal-info,#idiomas,#programs{
-    display: flex;
-}
-
 /* Cuerpo */
 
 /* Separations */
@@ -22,6 +16,10 @@
 }
 
 /* Primera parte - Foto e info */
+
+#personal-info{
+    display: flex;
+}
 
 #about{
     font-size: 60px;
@@ -45,6 +43,64 @@
 
 .info-p{
     line-height: 1.2;
+}
+
+/* Segunda parte - Programas */
+
+#programs{
+    padding: 20px 20px 20px 0;
+    display: flex;
+}
+
+.info-programs{
+    width: 45%;
+    margin-left: 50px;
+    align-self: center;
+}
+
+.prog-leng{
+    width: 20%;
+    margin-left: 5%;
+    align-self: center;
+}
+
+li{
+    margin: 10px 0;
+}
+
+.h3{
+    font-size: 22px;
+}
+
+/* Tercera parte - Lenguages */
+
+#idiomas{
+    padding: 20px 20px 20px 0;
+    display: flex;
+}
+
+#sub-menu{
+    display: flex;
+    margin-left: auto;
+    margin-right: 10%;
+}
+
+#ip4{
+    width: 220px;
+    margin-left: 5%;
+}
+
+#ip5{
+    margin-left: 100px;
+    align-self: center;
+}
+
+.back-box1, .back-box2, .back-box3{
+    margin-bottom: 10px;
+}
+
+.progress{
+    width: 200px;
 }
 
 }

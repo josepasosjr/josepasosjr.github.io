@@ -12,11 +12,11 @@
 }
 
 #programs, #idiomas{
-    margin-top: 150px;
+    margin-top: 75px;
 }
 
 #idiomas{
-    margin-bottom: 75px;
+    margin-bottom: 50px;
 }
 
 /* Primera parte - Foto e info */
@@ -43,6 +43,82 @@
 
 .info-p{
     line-height: 1;
+}
+
+/* Segunda parte - Programas */
+
+#programs{
+    padding: 20px;
+    font-size: 10px;
+}
+
+.h3{
+    font-size: 13px;
+}
+
+.info-programs>.h3{
+    font-size: 15px;
+}
+
+.med{
+    display: none;
+}
+
+.med2{
+    display: block;
+}
+
+.h3{
+    margin-bottom: 10px;
+}
+
+#programs{
+    display: block;
+    padding: 20px;
+}
+
+.info-programs{
+    text-align: center;
+    width: auto;
+    margin: 0;
+}
+
+.prog-leng{
+    width: auto;
+    margin: 0;
+}
+
+/* Tercera parte - Lenguages */
+
+#idiomas{
+    padding: 20px;
+    font-size: 10px;
+}
+
+#sub-menu{
+    display: flex;
+    margin-right: 0;
+    justify-content: center;
+    margin-right: 40px;
+}
+
+#ip4{
+    width: 220px;
+    margin-left: 5%;
+}
+
+#ip5{
+    margin-left: 10px;
+    align-self: center;
+    font-size: 8px;
+}
+
+.back-box1, .back-box2, .back-box3{
+    margin-bottom: 0px;
+}
+
+.progress{
+    width: 90px;
 }
 
 }

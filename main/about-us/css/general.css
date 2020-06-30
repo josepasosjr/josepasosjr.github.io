@@ -1,4 +1,4 @@
-.max, .med, .min{
+.max, .med, .min, .med2{
     display: none;
 }
 
@@ -41,9 +41,12 @@ a:hover{
 
 /* Segunda parte - Programas */
 
+.h3{
+    font-weight: bold;
+}
+
 #programs{
     background-color:#eef1ef;
-    padding: 20px 20px 20px 0;
     margin-right: 100%;
     overflow: hidden;
     transition: margin-right 1s ease-out;
@@ -55,68 +58,40 @@ a:hover{
     transition: opacity 1s;
 }
 
-.info-programs{
-    width: 45%;
-    margin-left: 50px;
-    align-self: center
-}
-
-.prog-leng{
-    width: 20%;
-    margin-left: 5%;
-}
-
-li{
-    margin: 10px 0;
-}
-
 /* Tercera parte - Lenguages */
 
 #idiomas{
     background-color:#eef1ef;
-    padding: 20px 20px 20px 0;
     margin-right: 100%;
     overflow: hidden;
     transition: margin-right 1s ease-out;
     opacity: 0;
 }
 
-#ip4{
-    width: 220px;
-    margin-left: 5%;
-}
-
-#ip5{
-    margin-left: 5%;
-    margin-right: 50px;
-}
-
-.back-box{
+.back-box1{
     background-color: #DDDDDD;
-    width: 200px;
-    padding-right: 5%;
+    padding-right: 0%;
 }
 
-.spa-bar, .deu-bar, .por-bar, .eng-bar{
+.back-box2{
+    background-color: #DDDDDD;
+    padding-right: 20%;  
+}
+
+.back-box3{
+    background-color: #DDDDDD;
+    padding-right: 80%;  
+}
+
+.back-box4{
+    background-color: #DDDDDD;
+    padding-right: 80%;  
+}
+
+.back-box1 > div, .back-box2 > div, .back-box3 > div, .back-box4 > div{
     background-color: #242831;
     color:#eef1ef;
     text-align: right;
     padding-right: 5%;
 }
 
-.spa-bar{
-    width: 100%;    
-}
-.deu-bar{
-    width: 20%;    
-}
-.por-bar{
-    width: 20%;    
-}
-.eng-bar{
-    width: 80%;    
-}
-
-.progress{
-    list-style: none;
-}
