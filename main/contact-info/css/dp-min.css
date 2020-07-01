@@ -1,105 +1,35 @@
-@media screen and (max-width: 350px){
+@media screen and (max-width: 349px){
     .min{
         display: block;
+    }
     
-
-    body {
-    /* background-color: #DDDDDD; */
-        color: black;
-        margin: 0px;
-        font-family: "Trebuchet MS";
-        font-size: 20px;
-        background: rgb(15, 16, 20) url('../img/formula_difuminado2.png') no-repeat fixed;
-        background-size: cover;
-    }
-
-    /* Links */
-
-    a{
-        text-decoration: none;
-    }
-
-    a:visited, a:link{
-        color: white;
-    }
-
-    a:hover{
-        color: black;
-    }
-
-    /* Estilos del header */
-
-
     /* Main */
 
     .titulo{
         font-weight: bold;
-        font-size: 30px;
+        font-size: 22px;
         padding: 0;
-        margin: 0 0 30px 5%;
-        align-self: center;
         text-align: center;
+        margin-bottom: 25px;
     }
 
     .info-redes{
-        /* border: red solid 2px; */
         font-weight: bold;
-        width: 45%;
-        margin: 0 0 0 25%;
+        font-size: 12px;
         align-self: center;
         text-align: left;
     }
 
-    .pp{
-        font-size: 22px;
-        line-height: 1.5;
-    }
-
-    .pp>a{
-        color: black;
-        font-weight: bold;
-    }
-
-    .pp>a:hover{
-        color: #242831;
-    }
-
-    .aa {
-        display: flex;
-        margin: 10px 10px 10px 800px;
-    }
-
-    .cc {
-        margin: 10px 10px;
-    }
-
     main {
         background-color: rgba(255, 255, 255, 0.2);
-        padding: 50px 0 75px;
+        padding: 100px 0;
     }
 
-    .redes2{
-        font-size: 13px;
-        
-    }
-
-    .redes2 > a{
+    p > a:visited, p > a:link{
         color:black;
     }
 
-    .redes2 > a:hover{
+    p > a:hover{
         color:gray;
     }
-
-    /* Footer */
-
-    /* Import icons */
-
-    i{
-        width: 35px;
-    }
-
-    .icon{
-        font-size: 25px;
-    }
-    }
+}
