@@ -12,3 +12,4 @@ function selectMenu(n){
         z.style.position = 'sticky';
     }
 }
+
