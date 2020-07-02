@@ -18,7 +18,7 @@ body {
 }
 
 main {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 .redes2 > a:visited, .redes2 > a:link{
@@ -27,8 +27,4 @@ main {
 
 .redes2 > a:hover{
     color:gray;
-}
-
-.redes2{
-    border: red solid 2px;
 }

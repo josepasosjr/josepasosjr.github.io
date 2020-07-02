@@ -4,25 +4,28 @@
     }
 
     /* Main */
+
     
     .titulo{
         font-size: 85px;
-        margin: 150px 0;
+        padding: 150px 0;
         text-align: center;
     }
     
     .info-redes{
-        width: 60%;
         text-align: left;
-        margin: 200px auto;
+        padding-bottom: 100px;
     }
-    
-    main {
-        padding: 50px 0 75px;
-    }
-    
     .redes2{
-        font-size: 35px;
+        font-size: 40px;
+        margin:auto;
+        width: 600px;
+        margin-bottom: 25px;
     }
+    .icon2 > i{
+        width: 55px;
+    }
+
+
 
 }

@@ -7,30 +7,16 @@
     .titulo{
         font-weight: bold;
         font-size: 30px;
-        padding: 50px 0;
         text-align: center;
-        margin-bottom: 40px;
+        margin:100px 15%;
     }
 
     .info-redes{
         font-weight: bold;
-        font-size: 20px;
+        font-size: 17px;
         align-self: center;
         text-align: left;
-        border: red solid 2px;
-        margin-bottom: 50px;
+        margin: 100px 15%;
     }
 
-    main {
-        background-color: rgba(255, 255, 255, 0.2);
-        padding: 20px;
-    }
-
-    p > a:visited, p > a:link{
-        color:black;
-    }
-
-    p > a:hover{
-        color:gray;
-    }
 }
