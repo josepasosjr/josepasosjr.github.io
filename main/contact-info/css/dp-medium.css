@@ -2,5 +2,35 @@
     .med{
         display: block;
     }
+    /* Main */
 
+    .titulo{
+        font-weight: bold;
+        font-size: 30px;
+        padding: 50px 0;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .info-redes{
+        font-weight: bold;
+        font-size: 20px;
+        align-self: center;
+        text-align: left;
+        border: red solid 2px;
+        margin-bottom: 50px;
+    }
+
+    main {
+        background-color: rgba(255, 255, 255, 0.2);
+        padding: 20px;
+    }
+
+    p > a:visited, p > a:link{
+        color:black;
+    }
+
+    p > a:hover{
+        color:gray;
+    }
 }
