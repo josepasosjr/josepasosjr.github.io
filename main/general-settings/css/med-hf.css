@@ -9,13 +9,13 @@
         padding-top: 25px;
     }
 
-    .arrow > span > i{
+    .downArrow > span > i{
         font-size: 25px;
         width: 10px;
         text-align: center;
     }
 
-    .arrow{
+    .downArrow{
         text-align: right;
         margin-right: 50px;        
     }

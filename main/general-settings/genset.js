@@ -2,7 +2,7 @@ function insertHTML(type = 0){
     // Insert the header
     let header = document.getElementsByTagName('header');
     let x = "<div id='navigator' onclick=\"selectHeader('hiden-menu')\">";
-    x += "<div class='arrow medhf minhf'><span class='icon'><i class='fa fa-angle-down'></i></span></div>";
+    x += "<div class='downArrow medhf minhf'><span class='icon'><i class='fa fa-angle-down'></i></span></div>";
     x += "<div class='menus maxhf'><a href='../curriculum/curriculum.html'>Curriculum</a></div>";
     x += "<div class='menus maxhf'><a href='../about-us/about-us.html'>About Me</a></div>";
     x += "<div class='menus maxhf'><a href='../courses/courses.html'>Courses and Certifications</a></div>";

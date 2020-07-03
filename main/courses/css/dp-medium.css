@@ -1,98 +1,84 @@
-@media screen and (min-width: 350px) and (max-width: 1049px) {
+@media screen and (min-width: 350px) and (max-width: 949px) {
     .med{
         display: block;
     }
 
-/* Generacion de columnas */
+/* Main */
 
-#personal-info{
-    display: flex;
+.titulo{
+    font-size: 45px;
+    padding: 75px 0;
 }
 
-/* Cuerpo */
-
-/* Separations */
-
-#programs, #idiomas{
-    margin-top: 150px;
-}
-
-#idiomas{
-    margin-bottom: 75px;
-}
-
-/* Primera parte - Foto e info */
-
-#about{
-    font-size: 35px;
-    margin-bottom: 15px;
-}
-
-#foto-perfil{
-    width: 55%;
-}
-
-#info-foto{
-    padding: 20px 25px;
+.info-cert{
     width: 45%;
-    font-size: 15px;
+    padding: 10px 30px;
     align-self: center;
 }
 
-#info-tit{
-    font-size: 20px;
-    margin: 0 0 10px 0;
+.cursos{
+    padding: 30px 50px 10px;
 }
 
-.info-p{
-    line-height: 1;
-}
-
-@media screen and (max-width: 720px){
-    
-    #personal-info{
-        display: block;
-    }
-
-    #foto-perfil{
-        width: 100%;
-    } 
-
-    #info-foto{
-        width: auto;
-    }
-}
-
-/* Segunda parte - Programas */
-
-#programs{
-    padding: 20px;
-    display: flex;
-    font-size: 15px;
-}
-
-.h3{
-    font-size: 20px;
-}
-
-.info-programs{
-    width: 45%;
+.info-curs ~ .info-curs{
     margin-left: 50px;
-    align-self: center
 }
 
-.prog-leng{
-    width: 20%;
-    margin-left: 5%;
-    align-self: center;
+.title-courses{
+    font-size: 24px;
+    font-weight: bold;
 }
 
 li{
-    margin: 10px 0;
+    font-size: 19px;
+    line-height: 1.5;
 }
 
-@media screen and (max-width: 720px){
-    
+.pp{
+    font-size: 19px;
+    line-height: 1.5;
+}
+
+img{
+    width: 55%;
+}
+
+.h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.category-info-title{
+    padding: 30px 0;
+    font-size: 40px;
+}
+
+/* Animation */
+
+.arrow{
+    margin-right: 25px;
+}
+
+.certificado{
+    display: flex;
+}
+
+.menus-container{
+    padding: 30px 25px;
+    font-size: 25px;
+}
+
+.menus-container ~ .menus-container{
+    margin-top: 60px;
+}
+
+.arrow>span>i{  
+    width: 20px;
+    font-size: 35px;
+}
+
+@media screen and (max-width: 750px){   
+
     .med{
         display: none;
     }
@@ -101,81 +87,33 @@ li{
         display: block;
     }
 
-    .h3{
-        margin-bottom: 10px;
+    .h2{
+        padding: 30px;
     }
 
-    .info-programs>.h3{
-        font-size: 22px;
+    .info-cert2{
+        width: 55%;
+        align-self: center;
+        padding: 0 10px;
     }
 
-    #programs{
-        display: block;
-        padding-left: 5%;
+    img{
+        width: 45%;
     }
 
-    .info-programs{
-        text-align: center;
-        width: auto;
-        margin: 0;
-    }
-
-    .prog-leng{
-        width: auto;
-        margin: 0;
-    }
-
-}
-
-/* Tercera parte - Lenguages */
-
-#idiomas{
-    padding: 20px;
-    display: flex;
-    font-size: 15px;
-}
-
-#sub-menu{
-    display: flex;
-    margin-left: auto;
-    margin-right: 10%;
-}
-
-#ip4{
-    width: 220px;
-    margin-left: 5%;
-}
-
-#ip5{
-    margin-left: 10px;
-    align-self: center;
-}
-
-.back-box1, .back-box2, .back-box3{
-    margin-bottom: 10px;
-}
-
-.progress{
-    width: 150px;
-}
-
-@media screen and (max-width: 720px){
-    
-    #idiomas{
-        padding: 20px;
-        display: block;
+    .pp{
         font-size: 15px;
     }
-    #sub-menu{
+
+    .sub-menu-cert{
         display: flex;
-        margin-right: 40px;
-        justify-content: center;
     }
-    #ip5{
-        margin-left: 15px;
+
+    .info-cert{
+        width: auto;
+        padding: 0;
     }
 
 }
 
 }
-

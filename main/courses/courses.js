@@ -8,7 +8,7 @@ function selectMenu(n){
         z.style.position = 'relative';
     } else {
         arrow.style.transform = 'rotate(0deg)';
-        j.style.maxHeight = j.scrollHeight + "px";
+        j.style.maxHeight = j.scrollHeight*10 + "px";
         z.style.position = 'sticky';
     }
 }

@@ -1,47 +1,10 @@
+.max, .med, .med2, .min{
+    display: none;
+}
+
 body {
     background: #0F1014 url('../img/background.jpg') no-repeat fixed;
     background-size: cover;
-    color: black;
-    margin: 0px;
-    font-family: "Trebuchet MS";
-    font-size: 20px;
-}
-
-/* Links */
-
-a{
-    text-decoration: none;
-}
-
-a:visited, a:link{
-    color: white;
-}
-
-a:hover{
-    color: #eef1ef;
-}
-
-/* Estilos del header */
-
-header{
-    background-color: #242831;
-    color: #eef1ef;
-    padding: 30px 1%;
-}
-
-#navigator{
-    display: flex;
-    width: 100%;
-    justify-content: flex-end;
-    align-items: center; 
-}
-
-.menus{
-    text-align: center;
-    width: 150px;
-    font-size: 17px;
-    margin: 0 25px;
-    font-weight: bold;
 }
 
 /* Main */
@@ -50,48 +13,17 @@ header{
     text-align: center;
     color: #0F1014;
     font-weight: bold;
-    font-size: 60px;
-    padding: 75px 0;
-}
-
-.info-cert{
-    /* border: red solid 2px; */
-    width: 45%;
-    padding: 25px 50px;
-    align-self: center;
 }
 
 .cursos{
-    display: flex;
     justify-content: left;
-    padding: 30px 50px 10px;
-}
-
-.info-curs ~ .info-curs{
-    margin-left: 100px;
 }
 
 .title-courses{
-    font-size: 30px;
     font-weight: bold;
 }
 
-li{
-    font-size: 22px;
-    line-height: 1.5;
-}
-
-.pp{
-    font-size: 22px;
-    line-height: 1.5;
-}
-
-.pp>a{
-    color: black;
-    font-weight: bold;
-}
-
-li>a:link, li>a:visited{
+.pp>a:link, .pp>a:visited, li>a:link, li>a:visited{
     color: black;
     font-weight: bold;
 }
@@ -100,69 +32,25 @@ li>a:link, li>a:visited{
     color: #242831;
 }
 
-.aa {
-    display: flex;
-    margin: 10px 10px 10px 800px;
-}
-
-.cc {
-    margin: 10px 10px;
-}
-
-.p {
-    display: flex;
-    /*border: rgb(71, 165, 42) 2px solid;*/
-    margin: 0 auto 50px;
-    background-color: #eef1ef;
-}
-
 img{
     width: 55%;
-    /*border: rgb(8, 6, 6) 2px solid; */
 }
 
-
-/* Footer */
-
-footer{
-    margin-top: 75px;
-    background-color: #242831;
-    color: #eef1ef;
-    padding: 30px 0;
-    display: flex;
+.category-info-title{
+    background-color: rgba(15,15,15,0.2);
+    text-align: center;
+    font-weight: bold;
 }
 
-#cont-inf{
-    width: 400px;
-    margin-left: 50px;
-}
-
-.redes{
-    font-size: 15px;
-}
-
-#mark{
-    align-self: flex-end;
-    font-size: 15px;
-    width: 500px;
-    margin: 0 50px 0 auto;
-}
-
-/* Import icons */
-
-i{
-    width: 35px;
-}
-
-.icon{
-    font-size: 25px;
+.h2{
+    font-weight: bold;
+    text-align: center;
 }
 
 /* Animation */
 
 .arrow{
     margin-left: auto;
-    margin-right: 50px;
 }
 
 .category-info{
@@ -172,16 +60,12 @@ i{
 }
 
 .certificado, .cursos{
-    display: flex;
     background-color:#eef1ef;
 }
 
 .menus-container{
     background-color: #0F1014;
-    border: none;
     color: #eef1ef;
-    padding: 30px 50px;
-    font-size: 35px;
     font-weight: bold;
     cursor: pointer;   
     display: flex;
@@ -189,20 +73,7 @@ i{
     top: 0;
 }
 
-.menus-container ~ .menus-container{
-    margin-top: 75px;
-}
-
-.category-info-title{
-    background-color: rgba(15,15,15,0.2);
-    padding: 50px 0;
-    font-size: 50px;
-    text-align: center;
-    font-weight: bold;
-}
-
 .arrow>span>i{  
-    font-size: 50px;
     transform: rotate(-90deg);
     transition: transform 0.1s linear;
 }

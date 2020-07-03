@@ -1,36 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Courses and Certifications</title>
-    <link rel="stylesheet" href="css/general.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/courses.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="courses.js"></script>
     <link rel="shortcut icon" type="image/x-icon" href="../web_logo.ico" />
+    <script src="courses.js"></script>
 
     <!-- Header y Footer y general details-->
     <script src="../general-settings/genset.js"></script>
     <link rel="stylesheet" href="../general-settings/css/union.css">
 
-<!-- Cambios en la compatibilidad visual de la página -->
-    <link href='css/dp-max.css' rel='stylesheet' media='screen and (min-width:981px)'>
-    <link href='css/dp-medium.css' rel='stylesheet' media='screen and (min-width:481px) and (max-width: 980px)'>
-    <link href='css/dp-min.css' rel='stylesheet' media='screen and (max-width: 480px)'>
-
 </head>
 
-<body>
+<body onload='insertHTML()'>
 
 <header>
-    <div id='navigator'>
-        <div class="menus"><a href='../curriculum/curriculum.html'>Curriculum</a></div>
-        <div class="menus"><a href='../about-us/about-us.html'>About Me</a></div>
-        <div class="menus"><a href='../courses/courses.html'>Courses and Certifications</a></div>
-        <div class="menus"><a href='../jobs-proyects/jobs-proyects.html'>Jobs and Proyects</a></div>
-        <div class="menus"><a href='../contact-info/contact-info.html'>Contact Information</a></div>
-    </div>
+    
 </header>
 
 <main>
@@ -40,18 +30,23 @@
 
     <div onclick='selectMenu("eng-des")' class="menus-container">
         <div class='category'>Engineering Design</div>
-        <div class="arrow"><span class="icon"><i class="fa fa-angle-down"></i></span></div>
+        <div class="arrow"><span class="icon menuIcon"><i class="fa fa-angle-down"></i></span></div>
     </div>
     <div class='category-info' id='eng-des'>
         <div class="category-info-title">Certificades</div>
         <div class="certificado">
-                <img class="img" src="img/cswa.jpg">
+            <img class="max med" src="img/cswa.jpg">
             <div class='info-cert'>
-                <h2>Certified SolidWorks Associate (CSWA)</h2>
-                <div class="pp">October 2019</div>
-                <div class="pp">Dassault Systèmes</div>
-                <div class="pp">Credential ID: C-XQ5JE7MBCP</div>
-                <div class="pp"><a href="https://cv.virtualtester.com/qr/?b=SLDWRKS&i=C-XQ5JE7MBCP">URL Credential</a></div>
+                <div class="h2">Certified SolidWorks Associate (CSWA)</div>
+                <div class="sub-menu-cert">
+                    <div class='info-cert2'>
+                        <div class="pp">October 2019</div>
+                        <div class="pp">Dassault Systèmes</div>
+                        <div class="pp">Credential ID: C-XQ5JE7MBCP</div>
+                        <div class="pp"><a href="https://cv.virtualtester.com/qr/?b=SLDWRKS&i=C-XQ5JE7MBCP">URL Credential</a></div>
+                    </div>
+                    <img class="med2" src="img/prueba-med.png" alt="puntaje en el EF Set">
+                </div>
             </div>
         </div>
         <div class="category-info-title">Courses</div>
@@ -70,36 +65,47 @@
     
     <div onclick='selectMenu("english")' class="menus-container">
         <div class='category'>English</div>
-        <div class="arrow"><span class="icon"><i class="fa fa-angle-down"></i></span></div>
+        <div class="arrow"><span class="icon menuIcon"><i class="fa fa-angle-down"></i></span></div>
     </div>
     <div class='category-info' id='english'>
         <div class="category-info-title">Certificades</div>
         <div class="certificado">
-            <img class="img" src="img/ef-set.png">
+            <img class="max med" src="img/ef-set.png">
             <div class='info-cert'>
-                <h2>EF SET English Certificate 64/100 (C1 Advanced)</h2>
-                <div class="pp">April 2020</div>
-                <div class="pp">EF Education First</div>
-                <div class="pp"><a href="https://www.efset.org/cert/bwb8eQ">URL Credential</a></div>
+                <div class="h2">EF SET English Certificate 64/100 (C1 Advanced)</div>
+                <div class="sub-menu-cert">
+                    <div class="info-cert2">
+                        <div class="pp">April 2020</div>
+                        <div class="pp">EF Education First</div>
+                        <div class="pp"><a href="https://www.efset.org/cert/bwb8eQ">URL Credential</a></div>
+                    </div>
+                    <img class="med2" src="img/prueba-med.png" alt="puntaje en el EF Set">
+                </div>
             </div>
+            
         </div>
     </div>
 
     <div onclick='selectMenu("programming")' class="menus-container">
         <div class='category'>Computer Programming</div>
-        <div class="arrow"><span class="icon"><i class="fa fa-angle-down"></i></span></div>
+        <div class="arrow"><span class="icon menuIcon"><i class="fa fa-angle-down"></i></span></div>
     </div>
     <div class='category-info' id='programming'>
         <div class="category-info-title">Certificades</div>
         <div class="certificado">
+            <img class="max med" src="img/matlab-course.png">
             <div class='info-cert'>
-                <h2>Introduction to programming with MATLAB</h2>
-                <div class="pp">May 2020</div>
-                <div class="pp">Vanderbilt University/Coursera</div>
-                <div class="pp">Credential ID: QJ69ASQC77LW</div>
-                <div class="pp"><a href="http://coursera.org/verify/QJ69ASQC77LW">URL Credential</a></div>
+                <div class="h2">Introduction to programming with MATLAB</div>
+                <div class="sub-menu-cert">
+                    <div class="info-cert2">
+                        <div class="pp">May 2020</div>
+                        <div class="pp">Vanderbilt University/Coursera</div>
+                        <div class="pp">Credential ID: QJ69ASQC77LW</div>
+                        <div class="pp"><a href="http://coursera.org/verify/QJ69ASQC77LW">URL Credential</a></div>
+                    </div>
+                    <img class="med2" src="img/prueba-med.png" alt="puntaje en el EF Set">
+                </div>
             </div>
-            <img class="img" src="img/matlab-course.png">
         </div>
         <div class="category-info-title">Courses</div>
         <div class="cursos">
@@ -127,62 +133,11 @@
             </div>
         </div>
     </div>
-    
-
-    <!-- <div class="p">
-            <img class="img" src="img/cswa.png">
-        <div class='info-cert'>
-            <h2>Certified SolidWorks Associate (CSWA)</h2>
-            <div class="pp">October 2019</div>
-            <div class="pp">Dassault Systèmes</div>
-            <div class="pp">Credential ID: C-XQ5JE7MBCP</div>
-            <div class="pp"><a href="https://cv.virtualtester.com/qr/?b=SLDWRKS&i=C-XQ5JE7MBCP">URL Credential</a></div>
-        </div>
-    </div> -->
-    <!-- <div class="p">
-        <div class='info-cert'>
-            <h2>Introduction to programming with MATLAB</h2>
-            <div class="pp">May 2020</div>
-            <div class="pp">Vanderbilt University/Coursera</div>
-            <div class="pp">Credential ID: QJ69ASQC77LW</div>
-            <div class="pp"><a href="http://coursera.org/verify/QJ69ASQC77LW">URL Credential</a></div>
-        </div>
-            <img class="img" src="img/matlab-course.png">
-        
-            </div> -->
-    <!-- <div class="p">
-        <img class="img" src="img/stadistic-course.png">
-        <div class='info-cert'>
-            <h2>Estadística y probabilidad</h2>
-            <div class="pp">May 2020</div>
-            <div class="pp">UNAM/Coursera</div>
-            <div class="pp">Credential ID: 4KWX3JS25GXD</div>
-            <div class="pp"><a href="https://www.coursera.org/account/accomplishments/certificate/4KWX3JS25GXD">URL Credential</a></div>
-        </div>
-    </div> -->
-    <!-- <div class="p">
-        <div class='info-cert'>
-            <h2>EF SET English Certificate 64/100 (C1 Advanced)</h2>
-            <div class="pp">April 2020</div>
-            <div class="pp">EF Education First</div>
-            <div class="pp"><a href="https://www.efset.org/cert/bwb8eQ">URL Credential</a></div>
-        </div>
-        <img class="img" src="img/ef-set.png">
-    </div> -->
 
 </main>
 
 <footer>
-    <div id='cont-inf'>
-        <h2>Contact Information</h2>
-        <p class="redes"><span class="icon"><i class="fa fa-github-alt"></i></span><a href="https://github.com/jesusepp">GitHub</a></p>
-        <p class="redes"><span class="icon"><i class="fa fa-linkedin"></i></span><a href="https://www.linkedin.com/in/jeppires">LinkedIn</a></p>
-        <p class="redes"><span class="icon"><i class="fa fa-at"></i></span>jpereira.fsaeusb@gmail.com</p>
-    </div>
-    <div id="mark">
-        This web aplication was developed by José Pasos (<!-- Insertar su web page-->) and Jesús Pereira 
-        (<!-- Insertar su web page-->), Mechanical Engineering Students at "Universidad Simón Bolívar"
-    </div>
+    
 </footer>
 
 </body>

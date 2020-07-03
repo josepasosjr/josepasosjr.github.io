@@ -1,106 +1,79 @@
-@media screen and (min-width: 1050px){
+@media screen and (min-width: 950px){
 .max{
     display: block;
 }
 
-/* Cuerpo */
+/* Main */
 
-/* Separations */
-
-#programs, #idiomas{
-    margin-top: 150px;
-}
-
-#idiomas{
-    margin-bottom: 75px;
-}
-
-/* Primera parte - Foto e info */
-
-#personal-info{
-    display: flex;
-}
-
-#about{
+.titulo{
     font-size: 60px;
-    margin-bottom: 15px;
+    padding: 75px 0;
 }
 
-#foto-perfil{
-    width: 55%;
-}
-
-#info-foto{
+.info-cert{
+    width: 45%;
     padding: 25px 50px;
     align-self: center;
-    width: 45%;
 }
 
-#info-tit{
-    font-size: 32px;
-    margin: 0 0 10px 0;
+.cursos{
+    padding: 30px 50px 10px;
 }
 
-.info-p{
-    line-height: 1.2;
+.info-curs ~ .info-curs{
+    margin-left: 100px;
 }
 
-/* Segunda parte - Programas */
-
-#programs{
-    padding: 20px 20px 20px 0;
-    display: flex;
-}
-
-.info-programs{
-    width: 45%;
-    margin-left: 50px;
-    align-self: center;
-}
-
-.prog-leng{
-    width: 20%;
-    margin-left: 5%;
-    align-self: center;
+.title-courses{
+    font-size: 30px;
+    font-weight: bold;
 }
 
 li{
-    margin: 10px 0;
-}
-
-.h3{
     font-size: 22px;
+    line-height: 1.5;
 }
 
-/* Tercera parte - Lenguages */
+.pp{
+    font-size: 22px;
+    line-height: 1.5;
+}
 
-#idiomas{
-    padding: 20px 20px 20px 0;
+img{
+    width: 55%;
+}
+
+.category-info-title{
+    padding: 50px 0;
+    font-size: 50px;
+}
+
+.h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* Animation */
+
+.arrow{
+    margin-right: 50px;
+}
+
+.certificado{
     display: flex;
 }
 
-#sub-menu{
-    display: flex;
-    margin-left: auto;
-    margin-right: 10%;
+.menus-container{
+    padding: 30px 50px;
+    font-size: 35px;
 }
 
-#ip4{
-    width: 220px;
-    margin-left: 5%;
+.menus-container ~ .menus-container{
+    margin-top: 75px;
 }
 
-#ip5{
-    margin-left: 100px;
-    align-self: center;
-}
-
-.back-box1, .back-box2, .back-box3{
-    margin-bottom: 10px;
-}
-
-.progress{
-    width: 200px;
+.arrow>span>i{  
+    font-size: 50px;
 }
 
 }
