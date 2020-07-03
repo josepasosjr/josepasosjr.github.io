@@ -9,7 +9,6 @@
     <link href="css/courses.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" type="image/x-icon" href="../web_logo.ico" />
-    <script src="courses.js"></script>
 
     <!-- Header y Footer y general details-->
     <script src="../general-settings/genset.js"></script>
@@ -23,19 +22,25 @@
     
 </header>
 
+<div id="back-img"></div>
 <main>
     <div class="titulo">
         Courses and Certifications
     </div>
 
-    <div onclick='selectMenu("eng-des")' class="menus-container">
+    <div class="menus-container">
         <div class='category'>Engineering Design</div>
         <div class="arrow"><span class="icon menuIcon"><i class="fa fa-angle-down"></i></span></div>
     </div>
     <div class='category-info' id='eng-des'>
         <div class="category-info-title">Certificades</div>
         <div class="certificado">
-            <img class="max med" src="img/cswa.jpg">
+            <img class="img-modal max med" src="img/cswa.jpg" alt="CSWA Certificade">
+            <div class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" src='img/certificades/cswa-cert.jpg'>
+                <div class="caption"></div>
+            </div>
             <div class='info-cert'>
                 <div class="h2">Certified SolidWorks Associate (CSWA)</div>
                 <div class="sub-menu-cert">
@@ -63,14 +68,19 @@
         </div>
     </div>
     
-    <div onclick='selectMenu("english")' class="menus-container">
+    <div class="menus-container">
         <div class='category'>English</div>
         <div class="arrow"><span class="icon menuIcon"><i class="fa fa-angle-down"></i></span></div>
     </div>
     <div class='category-info' id='english'>
         <div class="category-info-title">Certificades</div>
         <div class="certificado">
-            <img class="max med" src="img/ef-set.png">
+            <img class="img-modal max med" src="img/ef-set.png" alt="English grading by the EF-set">
+            <div class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" src="img/certificades/efset-cert.jpg">
+                <div class="caption"></div>
+            </div>
             <div class='info-cert'>
                 <div class="h2">EF SET English Certificate 64/100 (C1 Advanced)</div>
                 <div class="sub-menu-cert">
@@ -86,14 +96,19 @@
         </div>
     </div>
 
-    <div onclick='selectMenu("programming")' class="menus-container">
+    <div class="menus-container">
         <div class='category'>Computer Programming</div>
         <div class="arrow"><span class="icon menuIcon"><i class="fa fa-angle-down"></i></span></div>
     </div>
     <div class='category-info' id='programming'>
         <div class="category-info-title">Certificades</div>
         <div class="certificado">
-            <img class="max med" src="img/matlab-course.png">
+            <img alt='Colage of MATLAB achievements' class="img-modal max med" src="img/matlab-course.png">
+            <div class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" src="img/certificades/matlab-cert.jpg">
+                <div class="caption"></div>
+            </div>
             <div class='info-cert'>
                 <div class="h2">Introduction to programming with MATLAB</div>
                 <div class="sub-menu-cert">
@@ -133,12 +148,12 @@
             </div>
         </div>
     </div>
-
 </main>
 
 <footer>
     
 </footer>
 
+<script src="courses.js"></script>
 </body>
 </html>
