@@ -1,0 +1,79 @@
+@media screen and (min-width: 950px){
+.max{
+    display: block;
+}
+
+/* Main */
+
+.titulo{
+    font-size: 60px;
+    padding: 75px 0;
+}
+
+.info-cert{
+    width: 45%;
+    padding: 25px 50px;
+    align-self: center;
+}
+
+.cursos{
+    padding: 30px 50px 10px;
+}
+
+.info-curs ~ .info-curs{
+    margin-left: 100px;
+}
+
+.title-courses{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+li{
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+.pp{
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+img{
+    width: 55%;
+}
+
+.category-info-title{
+    padding: 50px 0;
+    font-size: 50px;
+}
+
+.h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* Animation */
+
+.arrow{
+    margin-right: 50px;
+}
+
+.certificado{
+    display: flex;
+}
+
+.menus-container{
+    padding: 30px 50px;
+    font-size: 35px;
+}
+
+.menus-container ~ .menus-container{
+    margin-top: 75px;
+}
+
+.arrow>span>i{  
+    font-size: 50px;
+}
+
+}

@@ -1,0 +1,119 @@
+@media screen and (min-width: 350px) and (max-width: 949px) {
+    .med{
+        display: block;
+    }
+
+/* Main */
+
+.titulo{
+    font-size: 45px;
+    padding: 75px 0;
+}
+
+.info-cert{
+    width: 45%;
+    padding: 10px 30px;
+    align-self: center;
+}
+
+.cursos{
+    padding: 30px 50px 10px;
+}
+
+.info-curs ~ .info-curs{
+    margin-left: 50px;
+}
+
+.title-courses{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+li{
+    font-size: 19px;
+    line-height: 1.5;
+}
+
+.pp{
+    font-size: 19px;
+    line-height: 1.5;
+}
+
+img{
+    width: 55%;
+}
+
+.h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.category-info-title{
+    padding: 30px 0;
+    font-size: 40px;
+}
+
+/* Animation */
+
+.arrow{
+    margin-right: 25px;
+}
+
+.certificado{
+    display: flex;
+}
+
+.menus-container{
+    padding: 30px 25px;
+    font-size: 25px;
+}
+
+.menus-container ~ .menus-container{
+    margin-top: 60px;
+}
+
+.arrow>span>i{  
+    width: 20px;
+    font-size: 35px;
+}
+
+@media screen and (max-width: 750px){   
+
+    .med{
+        display: none;
+    }
+
+    .med2{
+        display: block;
+    }
+
+    .h2{
+        padding: 30px;
+    }
+
+    .info-cert2{
+        width: 55%;
+        align-self: center;
+        padding: 0 10px;
+    }
+
+    img{
+        width: 45%;
+    }
+
+    .pp{
+        font-size: 15px;
+    }
+
+    .sub-menu-cert{
+        display: flex;
+    }
+
+    .info-cert{
+        width: auto;
+        padding: 0;
+    }
+
+}
+
+}
