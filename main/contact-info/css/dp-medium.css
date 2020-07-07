@@ -5,7 +5,7 @@
     /* Main */
     .titulo{
         font-weight: bold;
-        font-size: 25px;
+        font-size: 35px;
         text-align: center;
         padding: 150px 0;
     }
@@ -14,14 +14,14 @@
         padding-bottom: 100px;   
     }
     .redes2{
-        font-size: 15px;
-        width: 250px;
+        font-size: 22px;
+        width: 330px;
         margin-bottom: 25px;
-        margin-left: 60px;
+        margin-left: 25px;
 
     }
     .icon2 > i{
-        width: 20px;
+        width: 35px;
     }
 }
 
