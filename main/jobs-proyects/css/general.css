@@ -28,35 +28,17 @@ a:hover{
 /* 
 Main
 */
-
+.p {
+    background-color: #eef1ef;
+}
 /* Spacing */
 
 #jobs > .p ~ .p, #proyects > .p ~ .p{
     margin-top: 150px;
 }
 
-footer{
-    margin-top: 75px;
-}
-
 /*  */
 
-img{
-    width: 55%;
-}
-
-.p {
-    display: flex;
-    background-color: #eef1ef;
-}
-
-.titulo{
-    text-align: center;
-    color: white; 
-    font-weight: bold;
-    font-size: 60px;
-    padding: 75px 0;
-}
 
 .reference>a{
     color: black;
@@ -71,21 +53,11 @@ img{
 Works
 */
 
-.job-grade, .proy-grade{
-    font-size: 30px;
-    font-weight: bold;
-}
 
 .duration{
     color: #242831;
-    font-size: 18px;
 }
 
-.info-job, .info-proy{
-    width: 45%;
-    padding: 25px 50px;
-    align-self: center;
-}
 
 
 
@@ -104,7 +76,6 @@ i{
 /* Animations */
 
 .complement{
-    height: 500px;
     overflow: hidden;
     background-color: none;
     transition: height 1s ease-out;

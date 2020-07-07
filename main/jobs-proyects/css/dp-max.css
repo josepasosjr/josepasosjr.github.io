@@ -1,79 +1,38 @@
-@media screen and (min-width: 950px){
+@media screen and (min-width: 1040px){
 .max{
     display: block;
 }
 
 /* Main */
-
 .titulo{
+    text-align: center;
+    color: white; 
+    font-weight: bold;
     font-size: 60px;
     padding: 75px 0;
 }
-
-.info-cert{
-    width: 45%;
-    padding: 25px 50px;
-    align-self: center;
-}
-
-.cursos{
-    padding: 30px 50px 10px;
-}
-
-.info-curs ~ .info-curs{
-    margin-left: 100px;
-}
-
-.title-courses{
-    font-size: 30px;
-    font-weight: bold;
-}
-
-li{
-    font-size: 22px;
-    line-height: 1.5;
-}
-
-.pp{
-    font-size: 22px;
-    line-height: 1.5;
-}
-
 img{
     width: 55%;
 }
 
-.category-info-title{
-    padding: 50px 0;
-    font-size: 50px;
-}
-
-.h2{
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-
-/* Animation */
-
-.arrow{
-    margin-right: 50px;
-}
-
-.certificado{
+.p {
     display: flex;
+    background-color: #eef1ef;
 }
-
-.menus-container{
-    padding: 30px 50px;
-    font-size: 35px;
+.job-grade, .proy-grade{
+    font-size: 30px;
+    font-weight: bold;
 }
-
-.menus-container ~ .menus-container{
-    margin-top: 75px;
+.duration{
+    font-size: 18px;
 }
-
-.arrow>span>i{  
-    font-size: 50px;
+.info-job, .info-proy{
+    width: 45%;
+    padding: 25px 50px;
+    align-self: center;
+}
+.complement{
+    height: 500px;
 }
 
 }

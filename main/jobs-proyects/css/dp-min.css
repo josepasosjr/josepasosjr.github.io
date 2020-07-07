@@ -2,7 +2,36 @@
     .min{
         display: block;
     }
-
-
+    .titulo{
+        text-align: center;
+        color: white; 
+        font-weight: bold;
+        font-size: 60px;
+        padding: 75px 0;
+    }
+    img{
+        width: 55%;
+    }
+    
+    .p {
+        display: flex;
+        background-color: #eef1ef;
+    }
+    .job-grade, .proy-grade{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .duration{
+        font-size: 18px;
+    }
+    .info-job, .info-proy{
+        width: 45%;
+        padding: 25px 50px;
+        align-self: center;
+    }
+    .complement{
+        height: 500px;
+    }
+    
 
 }
