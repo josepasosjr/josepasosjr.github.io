@@ -1,4 +1,4 @@
-@media screen and (min-width: 350px) and (max-width: 949px) {
+@media screen and (min-width: 500px) and (max-width: 949px) {
     .med{
         display: block;
     }
@@ -26,7 +26,6 @@
 
 .title-courses{
     font-size: 24px;
-    font-weight: bold;
 }
 
 li{
@@ -64,7 +63,7 @@ img{
 }
 
 .menus-container{
-    padding: 30px 25px;
+    padding: 30px 25px 30px 50px;
     font-size: 25px;
 }
 
@@ -76,6 +75,29 @@ img{
     width: 20px;
     font-size: 35px;
 }
+
+/* Style the Image Used to Trigger the Modal */
+
+  
+  /* Modal Content (Image) */
+  .modal-content {
+    margin-top: 70px;
+    max-width: 600px;
+  }
+  
+  /* Caption of Modal Image (Image Text) - Same Width as the Image */
+  .caption {
+    margin: 20px auto;
+    max-width: 700px;
+    font-size: 20px;
+  }
+  
+  /* The Close Button */
+  .close {
+    top: 15px;
+    right: 35px;
+    font-size: 40px;
+  }
 
 @media screen and (max-width: 750px){   
 
@@ -92,13 +114,13 @@ img{
     }
 
     .info-cert2{
-        width: 55%;
+        width: 35%;
         align-self: center;
-        padding: 0 10px;
+        padding: 0 20px;
     }
 
     img{
-        width: 45%;
+        width: 65%;
     }
 
     .pp{

@@ -17,7 +17,7 @@ let menusContainers = document.getElementsByClassName('menus-container')
 for (let i = 0; i<menusContainers.length ; i++){
     menusContainers[i].onclick = function(){
         let j = menusContainers[i].nextElementSibling;
-        let arrow = menusContainers[i].childNodes[3].childNodes[0].childNodes[0]
+        let arrow = menusContainers[i].childNodes[3].childNodes[0].childNodes[0];
         if (j.style.maxHeight){
             arrow.style.transform = 'rotate(-90deg)';
             j.style.maxHeight = null;
@@ -41,11 +41,16 @@ let modal = document.getElementsByClassName("modal");
 let img = document.getElementsByClassName("img-modal");
 let modalImg = document.getElementsByClassName("modal-content");
 let captionText = document.getElementsByClassName("caption");
+let img2 = document.getElementsByClassName('img-modal2');
 
 for (let i = 0; i < modal.length; i++){
   img[i].onclick = function(){
   modal[i].style.display = "block";
   captionText[i].innerHTML = this.alt;
+  }
+  img2[i].onclick = function(){
+    modal[i].style.display = "block";
+    captionText[i].innerHTML = this.alt;
   }
 }
 

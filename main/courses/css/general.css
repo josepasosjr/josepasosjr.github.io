@@ -70,6 +70,7 @@ img{
     cursor: pointer;   
     display: flex;
     position: relative;
+    z-index: 1;
     top: 0;
 }
 
@@ -84,7 +85,7 @@ img{
  */
 
 /* Style the Image Used to Trigger the Modal */
-.img-modal {
+.img-modal, .img-modal2{
   cursor: pointer;
   transition: 0.3s;
 }
@@ -98,7 +99,6 @@ img{
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
-  padding-top: 50px; /* Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -112,7 +112,6 @@ img{
   margin: auto;
   display: block;
   width: 80%;
-  max-width: 650px;
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
@@ -120,10 +119,9 @@ img{
   margin: auto;
   display: block;
   width: 80%;
-  max-width: 700px;
   text-align: center;
   color: #ccc;
-  padding: 20px 0;
+  font-weight: bold;
 }
 
 /* Add Animation - Zoom in the Modal */
@@ -140,10 +138,7 @@ img{
 /* The Close Button */
 .close {
   position: absolute;
-  top: 15px;
-  right: 35px;
   color: #f1f1f1;
-  font-size: 40px;
   font-weight: bold;
   transition: 0.3s;
 }

@@ -76,4 +76,29 @@ img{
     font-size: 50px;
 }
 
+/* Style the Image Used to Trigger the Modal */
+
+  
+  /* Modal Content (Image) */
+  .modal-content {
+    margin-top: 50px;
+    max-width: 650px;
+  }
+  
+  /* Caption of Modal Image (Image Text) - Same Width as the Image */
+  .caption {
+    margin: 30px auto;
+    max-width: 700px;
+    font-size: 25px;
+  }
+  
+  /* The Close Button */
+  .close {
+    top: 15px;
+    right: 35px;
+    font-size: 40px;
+  }
+
+
+
 }
