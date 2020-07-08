@@ -6,7 +6,6 @@
 /* Main */
 .titulo{
     text-align: center;
-    color: white; 
     font-weight: bold;
     font-size: 60px;
     padding: 75px 0;
@@ -17,7 +16,6 @@ img{
 
 .p {
     display: flex;
-    background-color: #eef1ef;
 }
 .job-grade, .proy-grade{
     font-size: 30px;

@@ -4,7 +4,7 @@ function slideUp(id,box = 1){
         element.style.height = 0;
     } else {
         // alert('hello');
-        element.style.maxHeight = 490 + "px";
+        element.style.maxHeight = 1100 + "px";
     }
 }
 

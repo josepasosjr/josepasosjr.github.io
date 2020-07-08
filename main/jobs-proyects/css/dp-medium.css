@@ -1,4 +1,4 @@
-@media screen and (min-width: 350px) and (max-width: 1039px) {
+@media screen and (min-width: 510px) and (max-width: 1039px) {
     .med{
         display: block;
     }
@@ -6,14 +6,12 @@
 /* Main */
 .titulo{
     text-align: center;
-    color: white; 
     font-weight: bold;
     font-size: 60px;
     padding: 75px 0;
 }
 img{
-    width: 50%;
-    margin: 0 auto;
+    width: 100%;
 }
 
 .job-grade, .proy-grade{
@@ -24,12 +22,9 @@ img{
     font-size: 18px;
 }
 .info-job, .info-proy{
-    width: 80%;
-    padding: 110px 50px;
+    width: 90%;
+    padding: 40px 35px;
     align-self: center;
-}
-.complement{
-    height: 300px;
 }
 .p{
     height: 1000px;

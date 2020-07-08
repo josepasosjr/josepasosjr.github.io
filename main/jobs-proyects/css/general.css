@@ -28,6 +28,10 @@ a:hover{
 /* 
 Main
 */
+
+.titulo{
+    color: white; 
+}
 .p {
     background-color: #eef1ef;
 }
@@ -36,6 +40,7 @@ Main
 #jobs > .p ~ .p, #proyects > .p ~ .p{
     margin-top: 150px;
 }
+
 
 /*  */
 
