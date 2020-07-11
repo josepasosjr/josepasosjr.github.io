@@ -22,7 +22,7 @@ body[0].onscroll = function() {
     } else if (window.innerWidth > 1301){
         if (this.scrollTop > 300 || document.documentElement.scrollTop > 300){
             background(0);
-        } if (this.scrollTop > 600 || document.documentElement.scrollTop > 600){
+        } if (this.scrollTop > 700 || document.documentElement.scrollTop > 700){
             background(4);
         }
     } else if (window.innerWidth > 501 && window.innerHeight < 999){
