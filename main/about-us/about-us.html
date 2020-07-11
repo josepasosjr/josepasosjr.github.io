@@ -9,7 +9,6 @@
     <link href='css/about-us.css' rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" type="image/x-icon" href="../web_logo.ico" />
-    <script src="about-us.js"></script>
 
     <!-- Header y Footer y general details-->
     <script src="../general-settings/genset.js"></script>
@@ -17,8 +16,7 @@
 
 </head>
 
-<body onload='insertHTML()' onscroll='rightAn(0), setTimeout(rightAn.bind(1),1000)'>
-
+<body>
 <header>
 
 </header>
@@ -36,16 +34,16 @@
         </div>
     </div>
 
-    <div id='programs'>
+    <div id='programs' class='prog'>
 
-        <div class="info-programs" id='ip'>
+        <div class="info-programs prog" id='ip'>
             <div class="h3">Programs and Programming Languages</div><br class="med2 min">
             <p class="max med">This are some of the programs and programming languages that I have used throughout my career and my 
                 free time, in some hobbie proyects and collage works.
             </p>
         </div>
 
-        <div class="prog-leng" id='ip1'>
+        <div class="prog-leng prog" id='ip1'>
             <div class="h3">Programs</div>
             <ul class="max med">
                 <li>MATLAB</li>
@@ -62,7 +60,7 @@
             </div><br class="med2 min">
         </div>
 
-        <div class="prog-leng" id='ip2'>
+        <div class="prog-leng prog" id='ip2'>
             <div class="h3">Programming Languages</div>
             <ul class="max med">
                 <li>MATLAB</li>
@@ -84,14 +82,14 @@
         </div>
     </div>
 
-    <div id='idiomas'>
+    <div id='idiomas' class='prog'>
 
-        <div class="info-programs" id='ip3'>
+        <div class="info-programs prog" id='ip3'>
             <div class="h3">Languages</div>
             <p>Here are some of the languages that I have learned to this day</p>
         </div>
         <div id="sub-menu">
-            <div id='ip4'>
+            <div id='ip4' class='prog'>
                 <ul>
                     <li>Spanish</li>
                     <li>English</li>
@@ -100,7 +98,7 @@
                 </ul>
             </div>
 
-            <div id='ip5'>
+            <div id='ip5' class='prog'>
                 <div class="progress">
                     <div class="back-box1"><div class="bb">100%</div></div>
                     <div class="back-box2"><div class="bb">80%</div></div>
@@ -117,5 +115,6 @@
 <footer>
 
 </footer>
+<script src="about-us.js"></script>
 </body>
 </html>
