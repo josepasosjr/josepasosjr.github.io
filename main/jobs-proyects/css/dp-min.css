@@ -5,8 +5,8 @@
     .titulo{
         text-align: center;
         font-weight: bold;
-        font-size: 45px;
-        padding: 75px 0;
+        font-size: 40px;
+        padding: 40px 0;
     }
     img{
         width: 100%;
@@ -17,7 +17,7 @@
         font-weight: bold;
     }
     .duration{
-        font-size: 14px;
+        font-size: 13px;
     }
     .info-job, .info-proy{
         width: 90%;
@@ -25,10 +25,10 @@
         align-self: center;
     }
     .description{
-        font-size: 18px;
+        font-size: 16px;
     }
     .reference{
-        font-size: 18px;
+        font-size: 16px;
     }
     
 

@@ -8,7 +8,7 @@
     text-align: center;
     font-weight: bold;
     font-size: 60px;
-    padding: 75px 0;
+    padding: 60px 0;
 }
 img{
     width: 100%;
@@ -25,9 +25,6 @@ img{
     width: 90%;
     padding: 40px 35px;
     align-self: center;
-}
-.p{
-    height: 1000px;
 }
 
 }
