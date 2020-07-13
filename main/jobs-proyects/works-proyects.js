@@ -1,36 +1,36 @@
-function slideUp(id,box = 1){
-    let element = document.getElementById('' + id);
-    if (box == 0){
-        element.style.height = 0;
-    } else {
-        // alert('hello');
-        element.style.maxHeight = 1100 + "px";
-    }
+let body = document.getElementsByTagName('body')[0];
+let blackBox = document.getElementsByClassName('complement');
+let content = document.getElementsByClassName('p');
+let header = document.getElementsByTagName('header')[0];
+let title = document.getElementsByClassName('titulo');
+
+let distances = [0];
+let number = header.offsetHeight + title[0].offsetHeight + content[0].offsetHeight;
+for (let j = 1;j < blackBox.length;j++){
+    distances.splice(j,0,number);
+    number = number + 150 + content[0].offsetHeight;
 }
 
-function lineDetection(){
-    let scrollPoint = document.documentElement.scrollTop;
-    let scrollPoint2 = document.body.scrollTop;
-    if (scrollPoint2 > 50 || scrollPoint > 50){
-        slideUp('a1',100);
-        slideUp('a2',0);
-    } 
-    if (scrollPoint2 > 550 || scrollPoint > 550){
-        slideUp('b1',100);
-        slideUp('b2',0);
-    } 
-    if (scrollPoint2 > 1200 || scrollPoint > 1200){
-        slideUp('c1',100);
-        slideUp('c2',0);
-    } 
+for (let i = 1;i<blackBox.length;i++){
+    blackBox[i].style.height = content[0].offsetHeight*3 + 'px';
 }
 
-function selectMenu(n){
-    let j = document.getElementById('' + n);
-    if (j.style.maxHeight){
-        j.style.maxHeight = null;
-    } else {
-        j.style.maxHeight = j.scrollHeight + "px";
+body.onload = function(){
+    insertHTML();
+}
+
+function slideUp(id){
+    blackBox[id].style.height = 0;
+    // content[id].style.maxHeight = content[0].offsetHeight + "px";
+}
+
+body.onscroll = function(){
+    let sP = document.documentElement.scrollTop;
+    let sP2 = document.body.scrollTop;
+    for (let j = 1;j < blackBox.length;j++){
+        if (sP > distances[j] || sP2 > distances[j]){
+            slideUp(j);
+        } 
     }
 }
 

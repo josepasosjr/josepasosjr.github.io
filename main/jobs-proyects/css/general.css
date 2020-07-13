@@ -68,20 +68,6 @@ Works
 }
 
 
-
-
-/*
-Import icons
-*/
-
-i{
-    width: 35px;
-}
-
-.icon{
-    font-size: 25px;
-}
-
 /* Animations */
 
 .complement{
@@ -90,10 +76,13 @@ i{
     transition: height 1s ease-out;
 }
 
-.p{
+/* .p ~ .p, #c1{
     max-height: 0;
-    overflow: hidden;
     transition: max-Height 1s ease-out;
+} */
+
+.p {
+  overflow: hidden;
 }
 
 * {box-sizing:border-box}
@@ -174,19 +163,19 @@ i{
 }
 
 /* Fading animation */
-.fade {
+/* .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
-}
+} */
 
-@-webkit-keyframes fade {
+/* @-webkit-keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
-}
+} */
 
-@keyframes fade {
+/* @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
-}
+} */
