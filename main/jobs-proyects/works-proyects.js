@@ -21,7 +21,6 @@ body.onload = function(){
 
 function slideUp(id){
     blackBox[id].style.height = 0;
-    // content[id].style.maxHeight = content[0].offsetHeight + "px";
 }
 
 body.onscroll = function(){
@@ -34,31 +33,59 @@ body.onscroll = function(){
     }
 }
 
-var slideIndex = 1;
-showSlides(slideIndex);
+let prev = document.getElementsByClassName('prev');
+let next = document.getElementsByClassName('next');
+let dots = document.getElementsByClassName('dots');
+
+for (let i = 0; i<prev.length; i++){
+    prev[i].onclick = function(){
+        plusSlides(-1,i);
+    }
+    next[i].onclick = function(){
+        plusSlides(1,i);
+    }
+    let dot = dots[i].children;
+    for (let j = 0; j<dot.length; j++){
+        dot[j].onclick = function(){
+            currentSlide(j+1,i);
+        }
+    }
+}
+
+let slidesCont = document.getElementsByClassName("SlidesContainer");
+let slideIndex = [];
+for (let i = 0; i<slidesCont.length; i++){
+    slideIndex.push(1);
+    showSlides(slideIndex[i],i);
+}
+
 
 // Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+function plusSlides(n,index) {
+  showSlides(slideIndex[index] += n,index);
 }
 
 // Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
+function currentSlide(n,index) {
+  showSlides(slideIndex[index] = n,index);
+  
 }
 
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
+function showSlides(n,index) {
+    let slides = slidesCont[index].children;
+    let dots = document.getElementsByClassName("dots")[index].children;
+    if (n > slides.length) {
+        slideIndex[index] = 1
+    }
+    if (n < 1) {
+        slideIndex[index] = slides.length
+    }
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex[index]-1].style.display = "block";
+    dots[slideIndex[index]-1].className += " active";
 }

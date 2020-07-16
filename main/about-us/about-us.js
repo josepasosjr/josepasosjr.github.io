@@ -1,35 +1,24 @@
 let programs = document.getElementsByClassName('prog');
 let body = document.getElementsByTagName('body');
 let bb = document.getElementsByClassName('bb');
+let persInfo = document.getElementById('personal-info');
+let block = document.getElementsByClassName('block');
+let header = document.getElementsByTagName('header')[0];
+
+let distances = [0];
+let number = header.offsetHeight + persInfo.offsetHeight;
+for (let j = 0;j < block.length;j++){
+    distances.splice(j,0,number);
+    a = block[1].offsetHeight;
+    number = number + 150 + a/2;
+}
 
 body[0].onscroll = function() {
-    if (window.innerWidth > 350 && window.innerWidth < 500){
-        if (this.scrollTop > 450 || document.documentElement.scrollTop > 450){
-            background(0);
-        } if (this.scrollTop > 700 || document.documentElement.scrollTop > 700){
-            background(4);
-        }
-    } else if (window.innerWidth < 349){
-        if (this.scrollTop > 200 || document.documentElement.scrollTop > 200){
-            background(0);
-        } if (this.scrollTop > 400 || document.documentElement.scrollTop > 400){
-            background(4);
-        }
-    } else if (window.innerWidth > 720 && window.innerWidth < 1300 && window.innerHeight > 1000 && window.innerHeight < 1199){
-        if (this.scrollTop > 200 || document.documentElement.scrollTop > 200){
-            background(4);
-        }
-    } else if (window.innerWidth > 1301){
-        if (this.scrollTop > 300 || document.documentElement.scrollTop > 300){
-            background(0);
-        } if (this.scrollTop > 700 || document.documentElement.scrollTop > 700){
-            background(4);
-        }
-    } else if (window.innerWidth > 501 && window.innerHeight < 999){
-        if (this.scrollTop > 400 || document.documentElement.scrollTop > 400){
-            background(0);
-        } if (this.scrollTop > 800 || document.documentElement.scrollTop > 800){
-            background(4);
+    let sP = document.documentElement.scrollTop;
+    let sP2 = document.body.scrollTop;
+    for (let j = 0;j < block.length;j++){
+        if (sP > distances[j] || sP2 > distances[j]){
+            background(j);
         }
     }
 }
@@ -37,7 +26,7 @@ body[0].onscroll = function() {
 body[0].onload = function(){
         insertHTML();
     if (window.innerWidth > 720 && window.innerHeight > 1200){
-        background(4);
+        background(1);
         background(0);
     } else if (window.innerWidth > 720 && window.innerHeight > 1000 && window.innerHeight < 1199 && window.innerWidth < 1300){
         background(0);
@@ -45,11 +34,13 @@ body[0].onload = function(){
 }
 
 function background(id){
-    programs[id].style.marginRight = '0';
-    programs[id].style.opacity = '1';
     if (id == 0){
+        programs[id].style.marginRight = '0';
+        programs[id].style.opacity = '1';
         setTimeout(firstMovement,1000);
     } else {
+        programs[4].style.marginRight = '0';
+        programs[4].style.opacity = '1';
         setTimeout(secondMovement,1000);
         setTimeout(barAnimation,1000);
     }

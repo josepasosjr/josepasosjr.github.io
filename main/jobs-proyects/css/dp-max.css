@@ -4,15 +4,16 @@
 }
 
 /* Main */
+
+
 .titulo{
     text-align: center;
     font-weight: bold;
     font-size: 60px;
     padding: 75px 0;
 }
-img{
-    width: 55%;
-}
+
+
 
 .p {
     display: flex;
