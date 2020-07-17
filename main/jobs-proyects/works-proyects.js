@@ -53,6 +53,19 @@ for (let i = 0; i<prev.length; i++){
 }
 
 let slidesCont = document.getElementsByClassName("SlidesContainer");
+// let slidesCont2 = document.getElementsByClassName("slideshow-container");
+
+// for (let i = 0; i < slidesCont2.length; i++){
+//     slidesCont[i].onmouseover = function(){
+//         setTimeout(function() {
+//             autoPass(i)
+//         },5000);
+//     }
+//     slidesCont[i].onmouseout = function(){
+
+//     }
+// }
+
 let slideIndex = [];
 for (let i = 0; i<slidesCont.length; i++){
     slideIndex.push(1);
@@ -89,3 +102,14 @@ function showSlides(n,index) {
     slides[slideIndex[index]-1].style.display = "block";
     dots[slideIndex[index]-1].className += " active";
 }
+
+function autoPass(n = -1){
+    for (let i = 0; i < slideIndex.length; i++){
+        if (i != n){
+            plusSlides(1,i)
+        }
+    }
+    setTimeout(autoPass,5000);
+}
+
+setTimeout(autoPass,5000);
