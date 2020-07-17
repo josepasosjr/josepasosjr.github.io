@@ -30,6 +30,8 @@
     .reference{
         font-size: 16px;
     }
-    
+    .slideshow-container {
+        width: 100%;
+      }
 
 }

@@ -11,24 +11,6 @@ body {
     font-size: 20px;
 }
 
-/*
-Links
-*/
-
-a{
-    text-decoration: none;
-}
-
-a:visited, a:link{
-    color: white;
-}
-
-a:hover{
-    color: #eef1ef;
-}
-
-
-
 /* 
 Main
 */
@@ -54,7 +36,7 @@ img{
 /*  */
 
 
-.reference>a{
+.reference>a:visited, .reference>a:link{
     color: black;
     font-weight: bold;
 }

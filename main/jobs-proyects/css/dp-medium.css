@@ -26,5 +26,7 @@ img{
     padding: 40px 35px;
     align-self: center;
 }
-
+.slideshow-container {
+    width: 100%;
+  }
 }

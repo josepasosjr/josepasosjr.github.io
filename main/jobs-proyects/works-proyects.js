@@ -26,7 +26,7 @@ function slideUp(id){
 body.onscroll = function(){
     let sP = document.documentElement.scrollTop;
     let sP2 = document.body.scrollTop;
-    for (let j = 1;j < blackBox.length;j++){
+    for (let j = 1; j < blackBox.length;j++){
         if (sP > distances[j] || sP2 > distances[j]){
             slideUp(j);
         } 
@@ -81,7 +81,6 @@ function plusSlides(n,index) {
 // Thumbnail image controls
 function currentSlide(n,index) {
   showSlides(slideIndex[index] = n,index);
-  
 }
 
 function showSlides(n,index) {
@@ -106,7 +105,7 @@ function showSlides(n,index) {
 function autoPass(n = -1){
     for (let i = 0; i < slideIndex.length; i++){
         if (i != n){
-            plusSlides(1,i)
+            plusSlides(1,i);
         }
     }
     setTimeout(autoPass,5000);

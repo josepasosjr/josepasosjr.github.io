@@ -33,7 +33,16 @@
 /* .complement{
     height: 500px;
 } */
-
-
+@media screen and (max-width: 1250px){
+    .info-job, .info-proy{
+        font-size: 18px;
+    }
+    @media screen and (max-width: 1150px){
+        .info-job, .info-proy{
+            font-size: 15px;
+        }
+    
+    }
+}
 
 }
