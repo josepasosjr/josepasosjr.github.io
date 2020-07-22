@@ -3,7 +3,7 @@
 }
 
 body {
-    background: #0f1014 url('../img/formula_difuminado2.png') no-repeat fixed;
+    background: #0F1014 url('../img/formula_difuminado2.png') no-repeat fixed;
     background-size: cover;
 }
 
@@ -22,9 +22,9 @@ main {
 }
 
 .redes2 > a:visited, .redes2 > a:link{
-    color:black;
+    color:#000000;
 }
 
 .redes2 > a:hover{
-    color:gray;
+    color:#242831;
 }
