@@ -22,12 +22,9 @@
     }
 
     #hiden-menu{
-        background-color: #1c2027;
         line-height: 2;
         font-size: 8px;
         max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.2s linear;
     }
 
     .menus{

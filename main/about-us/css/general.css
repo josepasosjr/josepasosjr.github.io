@@ -7,20 +7,6 @@ body {
     background-size: cover;
 }
 
-/* Links */
-
-a{
-    text-decoration: none;
-}
-
-a:visited, a:link{
-    color: white;
-}
-
-a:hover{
-    color: #eef1ef;
-}
-
 /* Cuerpo */
 
 /* Separations */
@@ -32,7 +18,7 @@ a:hover{
 }
 
 #personal-info{
-    background-color:#eef1ef;
+    background-color:#EEF1EF;
 }
 
 #info-tit{
@@ -46,7 +32,7 @@ a:hover{
 }
 
 #programs{
-    background-color:#eef1ef;
+    background-color:#EEF1EF;
     margin-right: 100%;
     overflow: hidden;
     transition: margin-right 1s ease-out;
@@ -61,7 +47,7 @@ a:hover{
 /* Tercera parte - Lenguages */
 
 #idiomas{
-    background-color:#eef1ef;
+    background-color:#EEF1EF;
     margin-right: 100%;
     overflow: hidden;
     transition: margin-right 1s ease-out;
@@ -77,7 +63,7 @@ a:hover{
 
 .back-box1 > div, .back-box2 > div, .back-box3 > div, .back-box4 > div{
     background-color: #242831;
-    color:#eef1ef;
+    color:#EEF1EF;
     text-align: right;
     padding-right: 5%;
 }

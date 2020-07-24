@@ -3,11 +3,11 @@
 }
 
 body {
-    background-color: rgb(34, 34, 34);
+    background-color: #0F1014;
     margin: 0px;
     font-family: "Trebuchet MS";
     font-size: 20px;
-    color: black;
+    color: #000000;
 }
 
 /* Links */
@@ -17,18 +17,18 @@ a{
 }
 
 a:visited, a:link{
-    color: white;
+    color: #EEF1EF;
 }
 
 a:hover{
-    color: #eef1ef;
+    color: #B2B6C2;
 }
 
 /* Estilos del header */
 
 header{
     background-color: #242831;
-    color: #eef1ef;
+    color: #EEF1EF;
 }
 
 #navigator{
@@ -39,9 +39,15 @@ header{
     font-weight: bold;
 }
 
+#hiden-menu{
+    background-color: #0F1014;
+    overflow: hidden;
+    transition: max-height 0.2s linear;
+}
+
 /* Footer */
 
 footer{
     background-color: #242831;
-    color: #eef1ef;
+    color: #EEF1EF;
 }

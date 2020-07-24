@@ -11,7 +11,7 @@ body {
 
 .titulo{
     text-align: center;
-    color: #0F1014;
+    color: #000000;
     font-weight: bold;
 }
 
@@ -24,7 +24,7 @@ body {
 }
 
 .pp>a:link, .pp>a:visited, li>a:link, li>a:visited{
-    color: black;
+    color: #000000;
     font-weight: bold;
 }
 
@@ -60,12 +60,12 @@ img{
 }
 
 .certificado, .cursos{
-    background-color:#eef1ef;
+    background-color:#EEF1EF;
 }
 
 .menus-container{
     background-color: #0F1014;
-    color: #eef1ef;
+    color: #EEF1EF;
     font-weight: bold;
     cursor: pointer;   
     display: flex;
@@ -79,10 +79,7 @@ img{
     transition: transform 0.1s linear;
 }
 
-/*  */
-/*  */
-/* 
- */
+/* Modal Design */
 
 /* Style the Image Used to Trigger the Modal */
 .img-modal, .img-modal2{
@@ -120,7 +117,7 @@ img{
   display: block;
   width: 80%;
   text-align: center;
-  color: #ccc;
+  color: #EEF1EF;
   font-weight: bold;
 }
 
@@ -138,13 +135,13 @@ img{
 /* The Close Button */
 .close {
   position: absolute;
-  color: #f1f1f1;
+  color: #EEF1EF;
   font-weight: bold;
   transition: 0.3s;
 }
 
 .close:hover,
 .close:focus {
-  color: #bbb;
+  color: #B2B6C2;
   cursor: pointer;
 }

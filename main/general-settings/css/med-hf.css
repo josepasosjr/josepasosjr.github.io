@@ -26,12 +26,9 @@
     }
 
     #hiden-menu{
-        background-color: #1c2027;
         line-height: 2;
         font-size: 15px;
         max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.2s linear;
     }
 
     .menus{
@@ -39,7 +36,7 @@
     }
 
     .menus > div ~ div{
-        border-top: #323744 4px solid;
+        border-top: #242831 4px solid;
     }
 
     /* Footer */

@@ -36,13 +36,22 @@ body.onscroll = function(){
 let prev = document.getElementsByClassName('prev');
 let next = document.getElementsByClassName('next');
 let dots = document.getElementsByClassName('dots');
+let slidesCont = document.getElementsByClassName("SlidesContainer");
 
 for (let i = 0; i<prev.length; i++){
+    let mySlides = slidesCont[i].children;
+    let numSlides = mySlides.length;
+    for (let j = 0; j<numSlides; j++){
+        mySlides[j].innerHTML += `<div class="numbertext">${(1+j)} / ${numSlides}</div>`;
+    }
     prev[i].onclick = function(){
         plusSlides(-1,i);
     }
     next[i].onclick = function(){
         plusSlides(1,i);
+    }
+    for (let j = 0; j<numSlides; j++){
+        dots[i].innerHTML += '<span class="dot"></span>';
     }
     let dot = dots[i].children;
     for (let j = 0; j<dot.length; j++){
@@ -52,7 +61,6 @@ for (let i = 0; i<prev.length; i++){
     }
 }
 
-let slidesCont = document.getElementsByClassName("SlidesContainer");
 // let slidesCont2 = document.getElementsByClassName("slideshow-container");
 
 // for (let i = 0; i < slidesCont2.length; i++){
