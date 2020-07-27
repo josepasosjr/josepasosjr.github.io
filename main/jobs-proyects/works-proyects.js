@@ -5,14 +5,19 @@ let header = document.getElementsByTagName('header')[0];
 let title = document.getElementsByClassName('titulo');
 
 let distances = [0];
-let number = header.offsetHeight + title[0].offsetHeight + content[0].offsetHeight;
+let number = 0.2*title[0].offsetHeight;
 for (let j = 1;j < blackBox.length;j++){
-    distances.splice(j,0,number);
-    number = number + 150 + content[0].offsetHeight;
+    if (window.innerWidth > 945 && window.innerHeight > 800){
+        number = number + content[j].offsetHeight;
+        distances.splice(j,0,number);
+    } else {
+        number = number + title[0].offsetHeight + content[j].offsetHeight;
+        distances.splice(j,0,number);
+    }
 }
 
 for (let i = 1;i<blackBox.length;i++){
-    blackBox[i].style.height = content[0].offsetHeight*3 + 'px';
+    blackBox[i].style.height = window.innerHeight + 'px';
 }
 
 body.onload = function(){
@@ -41,9 +46,9 @@ let slidesCont = document.getElementsByClassName("SlidesContainer");
 for (let i = 0; i<prev.length; i++){
     let mySlides = slidesCont[i].children;
     let numSlides = mySlides.length;
-    for (let j = 0; j<numSlides; j++){
-        mySlides[j].innerHTML += `<div class="numbertext">${(1+j)} / ${numSlides}</div>`;
-    }
+    // for (let j = 0; j<numSlides; j++){
+    //     mySlides[j].innerHTML += `<div class="numbertext">${(1+j)} / ${numSlides}</div>`;
+    // }
     prev[i].onclick = function(){
         plusSlides(-1,i);
     }

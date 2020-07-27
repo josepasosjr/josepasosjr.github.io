@@ -33,5 +33,15 @@
     .slideshow-container {
         width: 100%;
     }
-
+    /* The dots/bullets/indicators */
+    .dot {
+        height: 9px;
+        width: 9px;
+        margin: 0 2px;
+        border: #DDDDDD 1px solid;
+    }
+    .prev, .next {
+        padding: 12px;
+        font-size: 12px;
+      }
 }
