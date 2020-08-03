@@ -8,6 +8,7 @@ body {
     font-family: "Trebuchet MS";
     font-size: 20px;
     color: #000000;
+    
 }
 
 /* Links */
@@ -27,7 +28,7 @@ a:hover{
 /* Estilos del header */
 
 header{
-    background-color: #242831;
+    background-color: #1ed5db;
     color: #EEF1EF;
 }
 

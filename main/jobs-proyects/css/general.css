@@ -3,14 +3,17 @@
 }
 
 body {
-    background: #0F1014 url('../img/background.jpg') no-repeat fixed;
+    background: #0F1014 url('../img/forest-5421362_1920.jpg') no-repeat fixed;
     background-size: cover;
+    
 }
 
 /* 
 Main
 */
-
+main{
+  background-color: rgba(17, 17, 17, 0.8);
+}
 img{
   width: 100%;
   margin-bottom: -5px;

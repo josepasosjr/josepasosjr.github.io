@@ -121,7 +121,7 @@ function autoPass(n = -1){
             plusSlides(1,i);
         }
     }
-    setTimeout(autoPass,5000);
+    setTimeout(autoPass,6000);
 }
 
-setTimeout(autoPass,5000);
+setTimeout(autoPass,300);

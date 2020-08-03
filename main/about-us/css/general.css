@@ -3,8 +3,13 @@
 }
 
 body {
-    background: #0F1014 url('../img/background.jpg') no-repeat fixed;
+    background: #0F1014 url('../img/fondo12.jpg') no-repeat fixed;
     background-size: cover;
+
+}
+
+main {
+    background-color: rgba(39, 38, 38, 0.6);
 }
 
 /* Cuerpo */

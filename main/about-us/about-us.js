@@ -37,12 +37,12 @@ function background(id){
     if (id == 0){
         programs[id].style.marginRight = '0';
         programs[id].style.opacity = '1';
-        setTimeout(firstMovement,1000);
+        setTimeout(firstMovement,300);
     } else {
         programs[4].style.marginRight = '0';
         programs[4].style.opacity = '1';
-        setTimeout(secondMovement,1000);
-        setTimeout(barAnimation,1000);
+        setTimeout(secondMovement,300);
+        setTimeout(barAnimation,300);
     }
 }
 
