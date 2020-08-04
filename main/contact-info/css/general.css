@@ -3,7 +3,7 @@
 }
 
 body {
-    background: #0F1014 url('../img/formula_difuminado2.png') no-repeat fixed;
+    background: #0F1014 url('../img/beach-768587_1920.jpg') no-repeat fixed;
     background-size: cover;
 }
 
@@ -18,7 +18,7 @@ body {
 }
 
 main {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(248, 248, 248, 0.692);
 }
 
 .redes2 > a:visited, .redes2 > a:link{

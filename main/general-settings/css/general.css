@@ -5,7 +5,7 @@
 body {
     background-color: #0F1014;
     margin: 0px;
-    font-family: "Trebuchet MS";
+    font-family: "Tahoma";
     font-size: 20px;
     color: #000000;
     
@@ -29,7 +29,7 @@ a:hover{
 
 header{
     background-color: #1ed5db;
-    color: #EEF1EF;
+    color: #5e5e5e;
 }
 
 #navigator{
