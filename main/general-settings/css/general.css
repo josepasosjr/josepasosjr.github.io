@@ -18,11 +18,11 @@ a{
 }
 
 a:visited, a:link{
-    color: #EEF1EF;
+    color: #ffffff;
 }
 
 a:hover{
-    color: #B2B6C2;
+    color: #525b74;
 }
 
 /* Estilos del header */

@@ -3,11 +3,14 @@
 }
 
 body {
-    background: #0F1014 url('../img/background.jpg') no-repeat fixed;
+    background: #0F1014 url('../img/tree-2106115_1920.jpg') no-repeat fixed;
     background-size: cover;
 }
 
 /* Main */
+main{
+  background-color: rgba(236, 236, 236, 0.671);
+}
 
 .titulo{
     text-align: center;

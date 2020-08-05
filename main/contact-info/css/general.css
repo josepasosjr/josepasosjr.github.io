@@ -15,10 +15,12 @@ body {
 
 .info-redes{
     font-weight: bold;
+
 }
 
 main {
     background-color: rgba(248, 248, 248, 0.692);
+
 }
 
 .redes2 > a:visited, .redes2 > a:link{
