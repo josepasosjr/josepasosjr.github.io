@@ -11,10 +11,10 @@ function insertHTML(type = 0){
     x += "</div>";
     x += "<div class='medhf minhf' id='hiden-menu'>";
     x += "<div class='menus'>";
-    x += "<div><a href='../curriculum/curriculum.html'>Curriculum</a></div>";
+    x += "<div><a href='../curriculum/curriculum.html'>CV</a></div>";
     x += "<div><a href='../about-us/about-us.html'>About Me</a></div>";
-    x += "<div><a href='../courses/courses.html'>Courses and Certifications</a></div>";
-    x += "<div><a href='../jobs-proyects/jobs-proyects.html'>Jobs and Proyects</a></div>";
+    x += "<div><a href='../courses/courses.html'>Courses & Certifications</a></div>";
+    x += "<div><a href='../jobs-proyects/jobs-proyects.html'>Jobs and Projects</a></div>";
     x += "<div><a href='../contact-info/contact-info.html'>Contact Information</a></div>";
     x += "</div>";
     x += "</div>";
